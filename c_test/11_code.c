@@ -13,6 +13,5 @@ int main(int arvc, char *argv[]) {
         }
         printf("\n");
     }
-
     return 0;
 }
