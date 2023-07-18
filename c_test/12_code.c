@@ -1,25 +1,19 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 int main(int arvc, char *argv[]) {
 
-    int arr[5][4] = {
-        56, 75, 78, 89, //
-        89, 98, 76, 67, //
-        88, 99, 77, 66, //
-        67, 78, 89, 90, //
-        98, 97, 96, 95  //
-    };
+    char str[128];
+    fgets(str, 128, stdin);
+    // scanf("%s", str);
 
-    int m = sizeof(arr) / sizeof(arr[0]);
-    int n = sizeof(arr[0]) / sizeof(arr[0][0]);
+    int len = 0;
 
-    for (int i = 0; i < n; ++i) {
-        double avg = 0;
-        for (int j = 0; j < m; ++j) {
-            avg += arr[j][i];
-        }
-        printf("%.2f\n", avg / m);
-    }
+    while (str[++len])
+        ;
+
+    printf("the length of `%s` is %d\n", str, len);
 
     return 0;
 }
