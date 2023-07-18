@@ -1,4 +1,5 @@
 add_requires("fmt", "gtest")
+add_requires("ftxui")
 add_requires("boost", {configs = {all = true}})
 add_requires("tbox", "zlib", "libpng","libsdl","libsdl_image")
 set_languages("cxx20")

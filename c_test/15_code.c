@@ -1,7 +1,7 @@
 #include <stdint.h>
+#include <stdlib.h>
 #include <stdio.h>
 #include <time.h>
-#include <stdlib.h>
 
 // 生成随机数
 int rand_num(int min, int max) { return rand() % (max - min + 1) + min; }
@@ -79,11 +79,11 @@ int main(int arvc, char *argv[]) {
 
     int arr[1000];
 
-    int m = 1000;
+    int m = 10;
 
     for (int i = 1; i <= m; ++i) {
 
-        int n = rand_num(5, 1000);
+        int n = rand_num(5, 10);
 
         printf("第 %d 组测试，本次测试数组长度为：%d\n", i, n);
 
