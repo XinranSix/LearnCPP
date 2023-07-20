@@ -65,6 +65,8 @@
         "semaphore": "cpp",
         "stop_token": "cpp",
         "thread": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "list": "cpp",
+        "ios": "cpp"
     }
 }
