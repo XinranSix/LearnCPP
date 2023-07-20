@@ -1,12 +1,14 @@
-#include <cstddef>
-#include <ios>
 #include <iostream>
-#include <string>
 
+struct X {};
 
+int main() {
 
-int main(int arvc, char *argv[]) {
+    X x;
 
-  auto* p = +[] {return 6; };
+    X x2 = std::move(x);
+
+    const X &x3 = std::move(x);
+
     return 0;
 }
