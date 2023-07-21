@@ -1,7 +1,0 @@
-{
-    errdata = "\27[01m\27[Kmodern_cpp/modern_cpp_test01.cpp:\27[m\27[K In function ‘\27[01m\27[Kint main()\27[m\27[K’:\
-\27[01m\27[Kmodern_cpp/modern_cpp_test01.cpp:11:25:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kconverting from ‘\27[01m\27[Kvoid (X::*)()\27[m\27[K’ to ‘\27[01m\27[KFunc\27[m\27[K’ {aka ‘\27[01m\27[Kvoid (*)(X*)\27[m\27[K’} [\27[01;35m\27[K-Wpmf-conversions\27[m\27[K]\
-   11 |     auto func = (Func)(p\27[01;35m\27[K)\27[m\27[K;\
-      |                         \27[01;35m\27[K^\27[m\27[K\
-"
-}
