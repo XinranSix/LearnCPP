@@ -1,113 +1,13 @@
 [
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/mergeSort/linux/x86_64/release/sort/mergeSort.cpp.o", "sort/mergeSort.cpp"],
-  "file": "sort/mergeSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/selectionSort/linux/x86_64/release/sort/selectionSort.cpp.o", "sort/selectionSort.cpp"],
-  "file": "sort/selectionSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/04_code/linux/x86_64/release/c_test/04_code.c.o", "c_test/04_code.c"],
-  "file": "c_test/04_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/14_code/linux/x86_64/release/c_test/14_code.c.o", "c_test/14_code.c"],
-  "file": "c_test/14_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/concurrency_test01/linux/x86_64/release/concurrency/concurrency_test01.cpp.o", "concurrency/concurrency_test01.cpp"],
-  "file": "concurrency/concurrency_test01.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/12_code/linux/x86_64/release/c_test/12_code.c.o", "c_test/12_code.c"],
-  "file": "c_test/12_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/16_code/linux/x86_64/release/c_test/16_code.c.o", "c_test/16_code.c"],
-  "file": "c_test/16_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/08_code/linux/x86_64/release/c_test/08_code.c.o", "c_test/08_code.c"],
-  "file": "c_test/08_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/06_code/linux/x86_64/release/c_test/06_code.c.o", "c_test/06_code.c"],
-  "file": "c_test/06_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/10_code/linux/x86_64/release/c_test/10_code.c.o", "c_test/10_code.c"],
-  "file": "c_test/10_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-I", "/home/yaojie/.xmake/packages/b/boost/1.81.0/9a76068f70604ea18becd4a3064bdac1/include", "-I", "/home/yaojie/.xmake/packages/b/bzip2/1.0.8/8db6bd46210f4711a452b7767b44748c/include", "-I", "/home/yaojie/.xmake/packages/f/ftxui/v3.0.0/c4565ddf60a74478a0fa81d2d54d4767/include", "-DNDEBUG", "-o", "build/.objs/cpp_test02/linux/x86_64/release/test/cpp_test02.cpp.o", "test/cpp_test02.cpp"],
+  "file": "test/cpp_test02.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-I", "/home/yaojie/.xmake/packages/b/boost/1.81.0/9a76068f70604ea18becd4a3064bdac1/include", "-I", "/home/yaojie/.xmake/packages/b/bzip2/1.0.8/8db6bd46210f4711a452b7767b44748c/include", "-I", "/home/yaojie/.xmake/packages/f/ftxui/v3.0.0/c4565ddf60a74478a0fa81d2d54d4767/include", "-DNDEBUG", "-o", "build/.objs/cpp_test03/linux/x86_64/release/test/cpp_test03.cpp.o", "test/cpp_test03.cpp"],
   "file": "test/cpp_test03.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/modern_cpp_test02/linux/x86_64/release/modern_cpp/modern_cpp_test02.cpp.o", "modern_cpp/modern_cpp_test02.cpp"],
-  "file": "modern_cpp/modern_cpp_test02.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/quickSort/linux/x86_64/release/sort/quickSort.cpp.o", "sort/quickSort.cpp"],
-  "file": "sort/quickSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/heapSort/linux/x86_64/release/sort/heapSort.cpp.o", "sort/heapSort.cpp"],
-  "file": "sort/heapSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/modern_cpp_test01/linux/x86_64/release/modern_cpp/modern_cpp_test01.cpp.o", "modern_cpp/modern_cpp_test01.cpp"],
-  "file": "modern_cpp/modern_cpp_test01.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/shellSort/linux/x86_64/release/sort/shellSort.cpp.o", "sort/shellSort.cpp"],
-  "file": "sort/shellSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/LicensePlateRecognition1/linux/x86_64/release/LicensePlateRecognition/LicensePlateRecognition1.cpp.o", "LicensePlateRecognition/LicensePlateRecognition1.cpp"],
-  "file": "LicensePlateRecognition/LicensePlateRecognition1.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-I", "/home/yaojie/.xmake/packages/b/boost/1.81.0/9a76068f70604ea18becd4a3064bdac1/include", "-I", "/home/yaojie/.xmake/packages/b/bzip2/1.0.8/8db6bd46210f4711a452b7767b44748c/include", "-I", "/home/yaojie/.xmake/packages/f/ftxui/v3.0.0/c4565ddf60a74478a0fa81d2d54d4767/include", "-DNDEBUG", "-o", "build/.objs/cpp_test01/linux/x86_64/release/test/cpp_test01.cpp.o", "test/cpp_test01.cpp"],
-  "file": "test/cpp_test01.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/15_code/linux/x86_64/release/c_test/15_code.c.o", "c_test/15_code.c"],
-  "file": "c_test/15_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/05_code/linux/x86_64/release/c_test/05_code.c.o", "c_test/05_code.c"],
-  "file": "c_test/05_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/13_code/linux/x86_64/release/c_test/13_code.c.o", "c_test/13_code.c"],
-  "file": "c_test/13_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/03_code/linux/x86_64/release/c_test/03_code.c.o", "c_test/03_code.c"],
-  "file": "c_test/03_code.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -121,43 +21,38 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/07_code/linux/x86_64/release/c_test/07_code.c.o", "c_test/07_code.c"],
-  "file": "c_test/07_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/countingSort/linux/x86_64/release/sort/countingSort.cpp.o", "sort/countingSort.cpp"],
-  "file": "sort/countingSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/02_code/linux/x86_64/release/c_test/02_code.c.o", "c_test/02_code.c"],
-  "file": "c_test/02_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/11_code/linux/x86_64/release/c_test/11_code.c.o", "c_test/11_code.c"],
-  "file": "c_test/11_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-I", "/home/yaojie/.xmake/packages/b/boost/1.81.0/9a76068f70604ea18becd4a3064bdac1/include", "-I", "/home/yaojie/.xmake/packages/b/bzip2/1.0.8/8db6bd46210f4711a452b7767b44748c/include", "-I", "/home/yaojie/.xmake/packages/f/ftxui/v3.0.0/c4565ddf60a74478a0fa81d2d54d4767/include", "-DNDEBUG", "-o", "build/.objs/cpp_test02/linux/x86_64/release/test/cpp_test02.cpp.o", "test/cpp_test02.cpp"],
-  "file": "test/cpp_test02.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/insertionSort/linux/x86_64/release/sort/insertionSort.cpp.o", "sort/insertionSort.cpp"],
-  "file": "sort/insertionSort.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/modern_cpp_test03/linux/x86_64/release/modern_cpp/modern_cpp_test03.cpp.o", "modern_cpp/modern_cpp_test03.cpp"],
   "file": "modern_cpp/modern_cpp_test03.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/bubbleSort/linux/x86_64/release/sort/bubbleSort.cpp.o", "sort/bubbleSort.cpp"],
-  "file": "sort/bubbleSort.cpp"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-I", "/home/yaojie/.xmake/packages/b/boost/1.81.0/9a76068f70604ea18becd4a3064bdac1/include", "-I", "/home/yaojie/.xmake/packages/b/bzip2/1.0.8/8db6bd46210f4711a452b7767b44748c/include", "-I", "/home/yaojie/.xmake/packages/f/ftxui/v3.0.0/c4565ddf60a74478a0fa81d2d54d4767/include", "-DNDEBUG", "-o", "build/.objs/cpp_test01/linux/x86_64/release/test/cpp_test01.cpp.o", "test/cpp_test01.cpp"],
+  "file": "test/cpp_test01.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/06_code/linux/x86_64/release/c_test/06_code.c.o", "c_test/06_code.c"],
+  "file": "c_test/06_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/16_code/linux/x86_64/release/c_test/16_code.c.o", "c_test/16_code.c"],
+  "file": "c_test/16_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-DNDEBUG", "-o", "build/.objs/concurrency_test01/linux/x86_64/release/concurrency/concurrency_test01.cpp.o", "concurrency/concurrency_test01.cpp"],
+  "file": "concurrency/concurrency_test01.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/03_code/linux/x86_64/release/c_test/03_code.c.o", "c_test/03_code.c"],
+  "file": "c_test/03_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/LicensePlateRecognition1/linux/x86_64/release/LicensePlateRecognition/LicensePlateRecognition1.cpp.o", "LicensePlateRecognition/LicensePlateRecognition1.cpp"],
+  "file": "LicensePlateRecognition/LicensePlateRecognition1.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -166,6 +61,71 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/13_code/linux/x86_64/release/c_test/13_code.c.o", "c_test/13_code.c"],
+  "file": "c_test/13_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/15_code/linux/x86_64/release/c_test/15_code.c.o", "c_test/15_code.c"],
+  "file": "c_test/15_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/10_code/linux/x86_64/release/c_test/10_code.c.o", "c_test/10_code.c"],
+  "file": "c_test/10_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/04_code/linux/x86_64/release/c_test/04_code.c.o", "c_test/04_code.c"],
+  "file": "c_test/04_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/modern_cpp_test02/linux/x86_64/release/modern_cpp/modern_cpp_test02.cpp.o", "modern_cpp/modern_cpp_test02.cpp"],
+  "file": "modern_cpp/modern_cpp_test02.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/modern_cpp_test01/linux/x86_64/release/modern_cpp/modern_cpp_test01.cpp.o", "modern_cpp/modern_cpp_test01.cpp"],
+  "file": "modern_cpp/modern_cpp_test01.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/02_code/linux/x86_64/release/c_test/02_code.c.o", "c_test/02_code.c"],
+  "file": "c_test/02_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/14_code/linux/x86_64/release/c_test/14_code.c.o", "c_test/14_code.c"],
+  "file": "c_test/14_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/11_code/linux/x86_64/release/c_test/11_code.c.o", "c_test/11_code.c"],
+  "file": "c_test/11_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/12_code/linux/x86_64/release/c_test/12_code.c.o", "c_test/12_code.c"],
+  "file": "c_test/12_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/05_code/linux/x86_64/release/c_test/05_code.c.o", "c_test/05_code.c"],
+  "file": "c_test/05_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-fvisibility-inlines-hidden", "-O3", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-DNDEBUG", "-o", "build/.objs/LicensePlateRecognition2/linux/x86_64/release/LicensePlateRecognition/LicensePlateRecognition2.cpp.o", "LicensePlateRecognition/LicensePlateRecognition2.cpp"],
   "file": "LicensePlateRecognition/LicensePlateRecognition2.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/07_code/linux/x86_64/release/c_test/07_code.c.o", "c_test/07_code.c"],
+  "file": "c_test/07_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-fvisibility=hidden", "-O3", "-Iinclude", "-DNDEBUG", "-o", "build/.objs/08_code/linux/x86_64/release/c_test/08_code.c.o", "c_test/08_code.c"],
+  "file": "c_test/08_code.c"
 }]

@@ -1,0 +1,9 @@
+{
+    errdata = "\27[01m\27[Kc_test/12_code.c:\27[m\27[K In function ‘\27[01m\27[Kmain\27[m\27[K’:\
+\27[01m\27[Kc_test/12_code.c:15:12:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Kformat ‘\27[01m\27[K%d\27[m\27[K’ expects argument of type ‘\27[01m\27[Kint\27[m\27[K’, but argument 4 has type ‘\27[01m\27[Ksize_t\27[m\27[K’ {aka ‘\27[01m\27[Klong unsigned int\27[m\27[K’} [\27[01;35m\27[K-Wformat=\27[m\27[K]\
+   15 |     printf(\27[01;35m\27[K\"length of `%s` is %d %d\\n\"\27[m\27[K, chs, len,\27[32m\27[Kstrlen(chs)\27[m\27[K);\
+      |            \27[01;35m\27[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\27[m\27[K           \27[32m\27[K~~~~~~~~~~~\27[m\27[K\
+      |                                                  \27[32m\27[K|\27[m\27[K\
+      |                                                  \27[32m\27[Ksize_t {aka long unsigned int}\27[m\27[K\
+"
+}

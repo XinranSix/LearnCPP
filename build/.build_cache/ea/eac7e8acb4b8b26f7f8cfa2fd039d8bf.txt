@@ -1,0 +1,8 @@
+{
+    errdata = "modern_cpp/C++17折叠表达式.cpp: In instantiation of ‘\27[01m\27[Kconstexpr const int v2<4, 5, 6>\27[m\27[K’:\
+\27[01m\27[Kmodern_cpp/C++17折叠表达式.cpp:21:18:\27[m\27[K   required from here\
+\27[01m\27[Kmodern_cpp/C++17折叠表达式.cpp:7:15:\27[m\27[K \27[01;35m\27[Kwarning: \27[m\27[Koverflow in conversion from ‘\27[01m\27[Klong unsigned int\27[m\27[K’ to ‘\27[01m\27[Kint\27[m\27[K’ changes value from ‘\27[01m\27[K18446744073709551609\27[m\27[K’ to ‘\27[01m\27[K-7\27[m\27[K’ [\27[01;35m\27[K-Woverflow\27[m\27[K]\
+    7 | constexpr int \27[01;35m\27[Kv2\27[m\27[K = (... - args);\
+      |               \27[01;35m\27[K^~\27[m\27[K\
+"
+}

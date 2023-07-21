@@ -12,7 +12,6 @@ add_requires("boost", {configs = {all = true}})
 add_requires("tbox", "zlib", "libpng","libsdl","libsdl_image")
 
 includes("test")
-includes("sort")
 includes("c_test")
 includes("concurrency")
 includes("modern_cpp")
