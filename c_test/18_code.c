@@ -1,18 +1,21 @@
-#include <cstring>
-#include <stdio.h>
+#include <tbox/tbox.h>
 
-int *data_cpoy(int *p) {
-    int buffer[8192*1024];
-    memcpy(buffer, p, unsigned long)
-}
+int main(int argc, char **argv) {
 
-int main() {
-    int i;
-    int a[0];
-    printf("hello world\n");
-    int j;
-    for (int k = 0; k < 10; k++)
-        ;
+    if (!tb_init(tb_null, tb_null)) {
+        return 0;
+    }
+
+    tb_vector_ref_t vector = tb_vector_init(0, tb_element_str(tb_true));
+
+    if (vector) {
+        tb_vector_insert_tail(vector, "hello");
+        tb_vector_insert_tail(vector, "tbox");
+
+        tb_for_all(tb_char_t const *, cstr, vector) { tb_trace_i("%s", cstr); }
+        tb_vector_exit(vector);
+    }
+    tb_exit();
 
     return 0;
 }
