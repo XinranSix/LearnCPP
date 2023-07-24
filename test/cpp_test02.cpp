@@ -1,48 +1,38 @@
-//将现有的三角形进行整体复制
 #include <stdio.h>
-#include <math.h>
-int main() {
-    char arr[800][800] = {0};
-    int n = 0;
-    scanf("%d", &n);
-    int y = 3 * pow(2, n - 1) - 1; // y表示顶点在第一行的下标值
-    arr[0][y] = '*';
-    arr[1][y - 1] = '*';
-    arr[1][y + 1] = '*';
-    arr[2][y - 2] = '*';
-    arr[2][y + 2] = '*';
-    arr[2][y] = '*';
-    //第一次循环，将[最上面的最小的三角形]赋值到对应其[左下的三角形]位置和[右下的三角形]位置
-    //如果有第二次循环，则将由[三个小三角形构成的三角形]赋值到左下和右下。
-    for (int i = 1; i < n; i++) // n表示复制n-1次
-    {
-        int rang = (3 * pow(2, i - 1) - 1);
-        for (int x1 = 0; x1 <= rang; x1++) {
-            for (int y1 = y - rang; y1 <= y + rang; y1++) {
-                arr[x1 + rang + 1][y1 - rang - 1] = arr[x1][y1];
-            }
-        }
-        for (int x1 = 0; x1 <= rang; x1++) {
-            for (int y1 = y - rang; y1 <= y + rang; y1++) {
-                arr[x1 + rang + 1][y1 + rang + 1] = arr[x1][y1];
-            }
-        }
-    }
-    //打印树叶
-    for (int i = 0; i <= 3 * pow(2, n - 1) - 1; i++) {
-        for (int j = 0; j <= 3 * pow(2, n) - 2; j++) {
-            if (arr[i][j] == '*')
-                printf("%c", arr[i][j]);
-            else
-                printf(" ");
-        }
-        printf("\n");
-    }
-    //打印树干
-    for (int i = 0; i < n; i++) {
-        for (int j = 0; j < y; j++)
-            printf(" ");
-        printf("*\n");
-    }
+#include <string.h>
+// 包函libiconv库头文件
+#include <iconv.h>
+// 导入libiconv库
+// #pragma comment(lib, "libiconv.lib")
+
+int ChangeCode(const char *pFromCode, const char *pToCode, const char *pInBuf,
+               size_t *iInLen, char *pOutBuf, size_t *iOutLen);
+
+int main(int argc, char *argv[]) {
+    char sInBuf[100];
+    char sOutBuf[100];
+    size_t iInLen = 0;
+    size_t iOutLen = 100;
+    int iRet;
+    strcpy(sInBuf, "测试Test Source");
+    memset(sOutBuf, 0x00, 100);
+    iInLen = strlen(sInBuf);
+    iRet = ChangeCode("GBK", "UTF-16", sInBuf, &iInLen, sOutBuf, &iOutLen);
     return 0;
+}
+
+int ChangeCode(const char *pFromCode, const char *pToCode, const char *pInBuf,
+               size_t *iInLen, char *pOutBuf, size_t *iOutLen) {
+    int iRet;
+    // 打开字符集转换
+    iconv_t hIconv = iconv_open(pToCode, pFromCode);
+    // if (-1 == (int)hIconv) {
+    //     return -1; // 打开失败，可能不支持的字符集
+    // }
+    // 开始转换
+    // iRet = iconv(hIconv, (const char **)(&pInBuf), iInLen, (char **)(&pOutBuf),
+    //              iOutLen);
+    // 关闭字符集转换
+    iconv_close(hIconv);
+    return iRet;
 }

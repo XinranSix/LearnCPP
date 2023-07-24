@@ -5,23 +5,23 @@
 
 using namespace std;
 
-std::string JsonToString(const Json::Value &root) {
+// std::string JsonToString(const Json::Value &root) {
 
-    static Json::Value def = []() {
-        Json::Value def;
-        Json::StreamWriterBuilder::setDefaults(&def);
-        def["emitUTF8"] = true;
-        return def;
-    }();
+//     static Json::Value def = []() {
+//         Json::Value def;
+//         Json::StreamWriterBuilder::setDefaults(&def);
+//         def["emitUTF8"] = true;
+//         return def;
+//     }();
 
-    std::ostringstream stream;
-    Json::StreamWriterBuilder stream_builder;
-    stream_builder.settings_ = def; // Config emitUTF8
-    std::unique_ptr<Json::StreamWriter> writer(
-        stream_builder.newStreamWriter());
-    writer->write(root, &stream);
-    return stream.str();
-}
+//     std::ostringstream stream;
+//     Json::StreamWriterBuilder stream_builder;
+//     stream_builder.settings_ = def; // Config emitUTF8
+//     std::unique_ptr<Json::StreamWriter> writer(
+//         stream_builder.newStreamWriter());
+//     writer->write(root, &stream);
+//     return stream.str();
+// }
 
 int main() {
 
@@ -48,11 +48,11 @@ int main() {
     result = client.license_plate(image, options);
 
     // cout << JsonToString(result) << endl;
-    // cout << result << endl;
+    cout << result << endl;
 
-    for (auto t : result["words_result"]) {
-        cout << JsonToString(t["number"]) << endl;
-    }
+    // for (auto t : result["words_result"]) {
+    //     // cout << JsonToString(t["number"]) << endl;
+    // }
 
     return 0;
 }
