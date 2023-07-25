@@ -11,7 +11,6 @@ add_requires("jsoncpp") -- jsoncpp
 add_requires("boost", {configs = {all = true}}) -- boost
 add_requires("tbox", "zlib", "libpng","libsdl","libsdl_image")
 
-includes("test")
 includes("c_test")
 includes("concurrency")
 includes("modern_cpp")
