@@ -16,5 +16,4 @@ includes("c_test")
 includes("concurrency")
 includes("modern_cpp")
 includes("LicensePlateRecognition")
-includes("embedded_c")
 
