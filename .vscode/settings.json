@@ -70,6 +70,7 @@
         "ios": "cpp",
         "sstream": "cpp",
         "fstream": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "stddef.h": "c"
     }
 }
