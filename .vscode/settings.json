@@ -71,6 +71,7 @@
         "sstream": "cpp",
         "fstream": "cpp",
         "cinttypes": "cpp",
-        "stddef.h": "c"
+        "stddef.h": "c",
+        "stdarg.h": "c"
     }
 }

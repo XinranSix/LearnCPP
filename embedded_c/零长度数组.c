@@ -2,18 +2,20 @@
 #include <string.h>
 #include <stdio.h>
 
-struct buffer {
+struct buffer1 {
     int len;
     int a[0];
 };
 
+struct buffer2 {
+    int len;
+    int *a;
+};
+
 int main(int arvc, char *argv[]) {
 
-    struct buffer *buf;
-    buf = (struct buffer *)malloc(sizeof(struct buffer) + 20);
-    buf->len = 20;
-    strcpy(buf->a, "hello zhaixue.cc!\n");
-    puts(buf->a);
+    printf("buffer1: %ld\n", sizeof(struct buffer1));
+    printf("buffer2: %ld\n", sizeof(struct buffer2));
 
     return 0;
 }
