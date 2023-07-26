@@ -1,336 +1,336 @@
 [
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/模拟多任务/linux/x86_64/debug/c_test/模拟多任务.c.o", "c_test/模拟多任务.c"],
-  "file": "c_test/模拟多任务.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.指针与结构体.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\指针与结构体\\windows\\x64\\debug\\c_test\\指针与结构体.c.obj", "c_test\\指针与结构体.c"],
+  "file": "c_test\\指针与结构体.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/15_code/linux/x86_64/debug/c_test/15_code.c.o", "c_test/15_code.c"],
-  "file": "c_test/15_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.常见的C标准库函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\常见的C标准库函数\\windows\\x64\\debug\\c_test\\常见的C标准库函数.c.obj", "c_test\\常见的C标准库函数.c"],
+  "file": "c_test\\常见的C标准库函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/05_code/linux/x86_64/debug/c_test/05_code.c.o", "c_test/05_code.c"],
-  "file": "c_test/05_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.零长度数组.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\零长度数组\\windows\\x64\\debug\\c_test\\零长度数组.c.obj", "c_test\\零长度数组.c"],
+  "file": "c_test\\零长度数组.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/语句表达式/linux/x86_64/debug/c_test/语句表达式.c.o", "c_test/语句表达式.c"],
-  "file": "c_test/语句表达式.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.结构体成员指定初始化.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\结构体成员指定初始化\\windows\\x64\\debug\\c_test\\结构体成员指定初始化.c.obj", "c_test\\结构体成员指定初始化.c"],
+  "file": "c_test\\结构体成员指定初始化.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/有符号数和无符号数/linux/x86_64/debug/c_test/有符号数和无符号数.c.o", "c_test/有符号数和无符号数.c"],
-  "file": "c_test/有符号数和无符号数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.有符号数和无符号数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\有符号数和无符号数\\windows\\x64\\debug\\c_test\\有符号数和无符号数.c.obj", "c_test\\有符号数和无符号数.c"],
+  "file": "c_test\\有符号数和无符号数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/typeof关键字/linux/x86_64/debug/c_test/typeof关键字.c.o", "c_test/typeof关键字.c"],
-  "file": "c_test/typeof关键字.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.复杂指针分析.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\复杂指针分析\\windows\\x64\\debug\\c_test\\复杂指针分析.c.obj", "c_test\\复杂指针分析.c"],
+  "file": "c_test\\复杂指针分析.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/可变参数宏/linux/x86_64/debug/c_test/可变参数宏.c.o", "c_test/可变参数宏.c"],
-  "file": "c_test/可变参数宏.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.模板形参包.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\f\\fmt\\10.0.0\\7cc91bd0ecb74e9ca1979aaf325877ce\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\模板形参包\\windows\\x64\\debug\\cpp_test\\模板形参包.cpp.obj", "cpp_test\\模板形参包.cpp"],
+  "file": "cpp_test\\模板形参包.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数组指针与指针数组/linux/x86_64/debug/c_test/数组指针与指针数组.c.o", "c_test/数组指针与指针数组.c"],
-  "file": "c_test/数组指针与指针数组.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.变参函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\变参函数\\windows\\x64\\debug\\c_test\\变参函数.c.obj", "c_test\\变参函数.c"],
+  "file": "c_test\\变参函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/常用的内建函数/linux/x86_64/debug/c_test/常用的内建函数.c.o", "c_test/常用的内建函数.c"],
-  "file": "c_test/常用的内建函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.18_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\18_code\\windows\\x64\\debug\\c_test\\18_code.c.obj", "c_test\\18_code.c"],
+  "file": "c_test\\18_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/管道运算符/linux/x86_64/debug/cpp_test/管道运算符.cpp.o", "cpp_test/管道运算符.cpp"],
-  "file": "cpp_test/管道运算符.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.08_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\08_code\\windows\\x64\\debug\\c_test\\08_code.c.obj", "c_test\\08_code.c"],
+  "file": "c_test\\08_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/18_code/linux/x86_64/debug/c_test/18_code.c.o", "c_test/18_code.c"],
-  "file": "c_test/18_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.14_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\14_code\\windows\\x64\\debug\\c_test\\14_code.c.obj", "c_test\\14_code.c"],
+  "file": "c_test\\14_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/可变参数模板/linux/x86_64/debug/cpp_test/可变参数模板.cpp.o", "cpp_test/可变参数模板.cpp"],
-  "file": "cpp_test/可变参数模板.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.04_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\04_code\\windows\\x64\\debug\\c_test\\04_code.c.obj", "c_test\\04_code.c"],
+  "file": "c_test\\04_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/08_code/linux/x86_64/debug/c_test/08_code.c.o", "c_test/08_code.c"],
-  "file": "c_test/08_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.concurrency_test01.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\f\\fmt\\10.0.0\\7cc91bd0ecb74e9ca1979aaf325877ce\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\g\\gtest\\1.12.1\\188944e346694ce89eb8bc3d2f0b7138\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\concurrency_test01\\windows\\x64\\debug\\concurrency\\concurrency_test01.cpp.obj", "concurrency\\concurrency_test01.cpp"],
+  "file": "concurrency\\concurrency_test01.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/04_code/linux/x86_64/debug/c_test/04_code.c.o", "c_test/04_code.c"],
-  "file": "c_test/04_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.属性声明：packed.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\属性声明：packed\\windows\\x64\\debug\\c_test\\属性声明：packed.c.obj", "c_test\\属性声明：packed.c"],
+  "file": "c_test\\属性声明：packed.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/14_code/linux/x86_64/debug/c_test/14_code.c.o", "c_test/14_code.c"],
-  "file": "c_test/14_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据溢出.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据溢出\\windows\\x64\\debug\\c_test\\数据溢出.c.obj", "c_test\\数据溢出.c"],
+  "file": "c_test\\数据溢出.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据类型转换/linux/x86_64/debug/c_test/数据类型转换.c.o", "c_test/数据类型转换.c"],
-  "file": "c_test/数据类型转换.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.指针与结构体#多层嵌套.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\指针与结构体#多层嵌套\\windows\\x64\\debug\\c_test\\指针与结构体#多层嵌套.c.obj", "c_test\\指针与结构体#多层嵌套.c"],
+  "file": "c_test\\指针与结构体#多层嵌套.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/属性声明：weak/linux/x86_64/debug/c_test/属性声明：weak.c.o", "c_test/属性声明：weak.c"],
-  "file": "c_test/属性声明：weak.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.C语言面向对象#Anima类.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\C语言面向对象#Anima类\\windows\\x64\\debug\\c_test\\C语言面向对象#Anima类.c.obj", "c_test\\C语言面向对象#Anima类.c"],
+  "file": "c_test\\C语言面向对象#Anima类.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据的可移植性/linux/x86_64/debug/c_test/数据的可移植性.c.o", "c_test/数据的可移植性.c"],
-  "file": "c_test/数据的可移植性.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.09_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\09_code\\windows\\x64\\debug\\c_test\\09_code.c.obj", "c_test\\09_code.c"],
+  "file": "c_test\\09_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据对齐#联合体对齐/linux/x86_64/debug/c_test/数据对齐#联合体对齐.c.o", "c_test/数据对齐#联合体对齐.c"],
-  "file": "c_test/数据对齐#联合体对齐.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.11_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\11_code\\windows\\x64\\debug\\c_test\\11_code.c.obj", "c_test\\11_code.c"],
+  "file": "c_test\\11_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/LicensePlateRecognition2/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition2.cpp.o", "LicensePlateRecognition/LicensePlateRecognition2.cpp"],
-  "file": "LicensePlateRecognition/LicensePlateRecognition2.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据对齐#persion.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据对齐#persion\\windows\\x64\\debug\\c_test\\数据对齐#persion.c.obj", "c_test\\数据对齐#persion.c"],
+  "file": "c_test\\数据对齐#persion.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/自增运算符/linux/x86_64/debug/c_test/自增运算符.c.o", "c_test/自增运算符.c"],
-  "file": "c_test/自增运算符.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.15_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\15_code\\windows\\x64\\debug\\c_test\\15_code.c.obj", "c_test\\15_code.c"],
+  "file": "c_test\\15_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/17_code/linux/x86_64/debug/c_test/17_code.c.o", "c_test/17_code.c"],
-  "file": "c_test/17_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.自己的日志打印函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\自己的日志打印函数\\windows\\x64\\debug\\c_test\\自己的日志打印函数.c.obj", "c_test\\自己的日志打印函数.c"],
+  "file": "c_test\\自己的日志打印函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/模板形参包/linux/x86_64/debug/cpp_test/模板形参包.cpp.o", "cpp_test/模板形参包.cpp"],
-  "file": "cpp_test/模板形参包.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.回调函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\回调函数\\windows\\x64\\debug\\c_test\\回调函数.c.obj", "c_test\\回调函数.c"],
+  "file": "c_test\\回调函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据溢出/linux/x86_64/debug/c_test/数据溢出.c.o", "c_test/数据溢出.c"],
-  "file": "c_test/数据溢出.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.语句表达式.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\语句表达式\\windows\\x64\\debug\\c_test\\语句表达式.c.obj", "c_test\\语句表达式.c"],
+  "file": "c_test\\语句表达式.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/10_code/linux/x86_64/debug/c_test/10_code.c.o", "c_test/10_code.c"],
-  "file": "c_test/10_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.管道运算符.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\f\\fmt\\10.0.0\\7cc91bd0ecb74e9ca1979aaf325877ce\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\管道运算符\\windows\\x64\\debug\\cpp_test\\管道运算符.cpp.obj", "cpp_test\\管道运算符.cpp"],
+  "file": "cpp_test\\管道运算符.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-o", "build/.objs/concurrency_test01/linux/x86_64/debug/concurrency/concurrency_test01.cpp.o", "concurrency/concurrency_test01.cpp"],
-  "file": "concurrency/concurrency_test01.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.枚举类型.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\枚举类型\\windows\\x64\\debug\\c_test\\枚举类型.c.obj", "c_test\\枚举类型.c"],
+  "file": "c_test\\枚举类型.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/13_code/linux/x86_64/debug/c_test/13_code.c.o", "c_test/13_code.c"],
-  "file": "c_test/13_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据对齐#联合体对齐.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据对齐#联合体对齐\\windows\\x64\\debug\\c_test\\数据对齐#联合体对齐.c.obj", "c_test\\数据对齐#联合体对齐.c"],
+  "file": "c_test\\数据对齐#联合体对齐.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/03_code/linux/x86_64/debug/c_test/03_code.c.o", "c_test/03_code.c"],
-  "file": "c_test/03_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.内联函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\内联函数\\windows\\x64\\debug\\c_test\\内联函数.c.obj", "c_test\\内联函数.c"],
+  "file": "c_test\\内联函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/二级指针/linux/x86_64/debug/c_test/二级指针.c.o", "c_test/二级指针.c"],
-  "file": "c_test/二级指针.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.常用的内建函数.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\常用的内建函数\\windows\\x64\\debug\\c_test\\常用的内建函数.c.obj", "c_test\\常用的内建函数.c"],
+  "file": "c_test\\常用的内建函数.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/C语言面向对象#链表的抽象与封装#Linux的设备管理模型/linux/x86_64/debug/c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c.o", "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"],
-  "file": "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.大小端.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\大小端\\windows\\x64\\debug\\c_test\\大小端.c.obj", "c_test\\大小端.c"],
+  "file": "c_test\\大小端.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据对齐/linux/x86_64/debug/c_test/数据对齐.c.o", "c_test/数据对齐.c"],
-  "file": "c_test/数据对齐.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.12_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\12_code\\windows\\x64\\debug\\c_test\\12_code.c.obj", "c_test\\12_code.c"],
+  "file": "c_test\\12_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数据对齐#persion/linux/x86_64/debug/c_test/数据对齐#persion.c.o", "c_test/数据对齐#persion.c"],
-  "file": "c_test/数据对齐#persion.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.16_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\16_code\\windows\\x64\\debug\\c_test\\16_code.c.obj", "c_test\\16_code.c"],
+  "file": "c_test\\16_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/container_of宏/linux/x86_64/debug/c_test/container_of宏.c.o", "c_test/container_of宏.c"],
-  "file": "c_test/container_of宏.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.06_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\06_code\\windows\\x64\\debug\\c_test\\06_code.c.obj", "c_test\\06_code.c"],
+  "file": "c_test\\06_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/指针与结构体/linux/x86_64/debug/c_test/指针与结构体.c.o", "c_test/指针与结构体.c"],
-  "file": "c_test/指针与结构体.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.02_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\02_code\\windows\\x64\\debug\\c_test\\02_code.c.obj", "c_test\\02_code.c"],
+  "file": "c_test\\02_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/属性声明：format/linux/x86_64/debug/c_test/属性声明：format.c.o", "c_test/属性声明：format.c"],
-  "file": "c_test/属性声明：format.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据类型转换.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据类型转换\\windows\\x64\\debug\\c_test\\数据类型转换.c.obj", "c_test\\数据类型转换.c"],
+  "file": "c_test\\数据类型转换.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/变参函数/linux/x86_64/debug/c_test/变参函数.c.o", "c_test/变参函数.c"],
-  "file": "c_test/变参函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.模拟多任务.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\模拟多任务\\windows\\x64\\debug\\c_test\\模拟多任务.c.obj", "c_test\\模拟多任务.c"],
+  "file": "c_test\\模拟多任务.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/16_code/linux/x86_64/debug/c_test/16_code.c.o", "c_test/16_code.c"],
-  "file": "c_test/16_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.LicensePlateRecognition2.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\LicensePlateRecognition2\\windows\\x64\\debug\\LicensePlateRecognition\\LicensePlateRecognition2.cpp.obj", "LicensePlateRecognition\\LicensePlateRecognition2.cpp"],
+  "file": "LicensePlateRecognition\\LicensePlateRecognition2.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/大小端/linux/x86_64/debug/c_test/大小端.c.o", "c_test/大小端.c"],
-  "file": "c_test/大小端.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.typeof关键字.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\typeof关键字\\windows\\x64\\debug\\c_test\\typeof关键字.c.obj", "c_test\\typeof关键字.c"],
+  "file": "c_test\\typeof关键字.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/06_code/linux/x86_64/debug/c_test/06_code.c.o", "c_test/06_code.c"],
-  "file": "c_test/06_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.属性声明：alias.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\属性声明：alias\\windows\\x64\\debug\\c_test\\属性声明：alias.c.obj", "c_test\\属性声明：alias.c"],
+  "file": "c_test\\属性声明：alias.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数组与指针/linux/x86_64/debug/c_test/数组与指针.c.o", "c_test/数组与指针.c"],
-  "file": "c_test/数组与指针.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.可变参数模板.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\f\\fmt\\10.0.0\\7cc91bd0ecb74e9ca1979aaf325877ce\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\可变参数模板\\windows\\x64\\debug\\cpp_test\\可变参数模板.cpp.obj", "cpp_test\\可变参数模板.cpp"],
+  "file": "cpp_test\\可变参数模板.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/11_code/linux/x86_64/debug/c_test/11_code.c.o", "c_test/11_code.c"],
-  "file": "c_test/11_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.内建函数__builtin_expect.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\内建函数__builtin_expect\\windows\\x64\\debug\\c_test\\内建函数__builtin_expect.c.obj", "c_test\\内建函数__builtin_expect.c"],
+  "file": "c_test\\内建函数__builtin_expect.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/01_code/linux/x86_64/debug/c_test/01_code.c.o", "c_test/01_code.c"],
-  "file": "c_test/01_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.03_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\03_code\\windows\\x64\\debug\\c_test\\03_code.c.obj", "c_test\\03_code.c"],
+  "file": "c_test\\03_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/C++17折叠表达式/linux/x86_64/debug/cpp_test/C++17折叠表达式.cpp.o", "cpp_test/C++17折叠表达式.cpp"],
-  "file": "cpp_test/C++17折叠表达式.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.可变参数宏.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\可变参数宏\\windows\\x64\\debug\\c_test\\可变参数宏.c.obj", "c_test\\可变参数宏.c"],
+  "file": "c_test\\可变参数宏.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/属性声明：alias/linux/x86_64/debug/c_test/属性声明：alias.c.o", "c_test/属性声明：alias.c"],
-  "file": "c_test/属性声明：alias.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数组指定初始化.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数组指定初始化\\windows\\x64\\debug\\c_test\\数组指定初始化.c.obj", "c_test\\数组指定初始化.c"],
+  "file": "c_test\\数组指定初始化.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/属性声明：packed/linux/x86_64/debug/c_test/属性声明：packed.c.o", "c_test/属性声明：packed.c"],
-  "file": "c_test/属性声明：packed.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.C语言面向对象#链表的抽象与封装#Linux的设备管理模型.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\C语言面向对象#链表的抽象与封装#Linux的设备管理模型\\windows\\x64\\debug\\c_test\\C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c.obj", "c_test\\C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"],
+  "file": "c_test\\C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/二级指针#二级指针和指针数组/linux/x86_64/debug/c_test/二级指针#二级指针和指针数组.c.o", "c_test/二级指针#二级指针和指针数组.c"],
-  "file": "c_test/二级指针#二级指针和指针数组.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.属性声明：format.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\属性声明：format\\windows\\x64\\debug\\c_test\\属性声明：format.c.obj", "c_test\\属性声明：format.c"],
+  "file": "c_test\\属性声明：format.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/自己的日志打印函数/linux/x86_64/debug/c_test/自己的日志打印函数.c.o", "c_test/自己的日志打印函数.c"],
-  "file": "c_test/自己的日志打印函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.05_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\05_code\\windows\\x64\\debug\\c_test\\05_code.c.obj", "c_test\\05_code.c"],
+  "file": "c_test\\05_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/指针与结构体#多层嵌套/linux/x86_64/debug/c_test/指针与结构体#多层嵌套.c.o", "c_test/指针与结构体#多层嵌套.c"],
-  "file": "c_test/指针与结构体#多层嵌套.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.在宏定义中使用语句表达式.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\在宏定义中使用语句表达式\\windows\\x64\\debug\\c_test\\在宏定义中使用语句表达式.c.obj", "c_test\\在宏定义中使用语句表达式.c"],
+  "file": "c_test\\在宏定义中使用语句表达式.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/常见的C标准库函数/linux/x86_64/debug/c_test/常见的C标准库函数.c.o", "c_test/常见的C标准库函数.c"],
-  "file": "c_test/常见的C标准库函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.内核中的aligned、packed声明.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\内核中的aligned、packed声明\\windows\\x64\\debug\\c_test\\内核中的aligned、packed声明.c.obj", "c_test\\内核中的aligned、packed声明.c"],
+  "file": "c_test\\内核中的aligned、packed声明.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/二级指针#二级指针和二维数组/linux/x86_64/debug/c_test/二级指针#二级指针和二维数组.c.o", "c_test/二级指针#二级指针和二维数组.c"],
-  "file": "c_test/二级指针#二级指针和二维数组.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.container_of宏.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\container_of宏\\windows\\x64\\debug\\c_test\\container_of宏.c.obj", "c_test\\container_of宏.c"],
+  "file": "c_test\\container_of宏.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数组指针作为参数传递/linux/x86_64/debug/c_test/数组指针作为参数传递.c.o", "c_test/数组指针作为参数传递.c"],
-  "file": "c_test/数组指针作为参数传递.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.C++17折叠表达式.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\f\\fmt\\10.0.0\\7cc91bd0ecb74e9ca1979aaf325877ce\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\C++17折叠表达式\\windows\\x64\\debug\\cpp_test\\C++17折叠表达式.cpp.obj", "cpp_test\\C++17折叠表达式.cpp"],
+  "file": "cpp_test\\C++17折叠表达式.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/内建函数__builtin_expect/linux/x86_64/debug/c_test/内建函数__builtin_expect.c.o", "c_test/内建函数__builtin_expect.c"],
-  "file": "c_test/内建函数__builtin_expect.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.二级指针#二级指针和二维数组.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\二级指针#二级指针和二维数组\\windows\\x64\\debug\\c_test\\二级指针#二级指针和二维数组.c.obj", "c_test\\二级指针#二级指针和二维数组.c"],
+  "file": "c_test\\二级指针#二级指针和二维数组.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/枚举类型/linux/x86_64/debug/c_test/枚举类型.c.o", "c_test/枚举类型.c"],
-  "file": "c_test/枚举类型.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据的可移植性.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据的可移植性\\windows\\x64\\debug\\c_test\\数据的可移植性.c.obj", "c_test\\数据的可移植性.c"],
+  "file": "c_test\\数据的可移植性.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/09_code/linux/x86_64/debug/c_test/09_code.c.o", "c_test/09_code.c"],
-  "file": "c_test/09_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.01_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\01_code\\windows\\x64\\debug\\c_test\\01_code.c.obj", "c_test\\01_code.c"],
+  "file": "c_test\\01_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/07_code/linux/x86_64/debug/c_test/07_code.c.o", "c_test/07_code.c"],
-  "file": "c_test/07_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.自增运算符.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\自增运算符\\windows\\x64\\debug\\c_test\\自增运算符.c.obj", "c_test\\自增运算符.c"],
+  "file": "c_test\\自增运算符.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/内联函数/linux/x86_64/debug/c_test/内联函数.c.o", "c_test/内联函数.c"],
-  "file": "c_test/内联函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.LicensePlateRecognition1.pdb", "/Od", "/std:c++20", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\o\\openssl\\1.1.1-t\\9458079689e342b58f2f2e8d4b2fb860\\include", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\j\\jsoncpp\\1.9.5\\e6618a0d6df14abea03ff7386675b09a\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\LicensePlateRecognition1\\windows\\x64\\debug\\LicensePlateRecognition\\LicensePlateRecognition1.cpp.obj", "LicensePlateRecognition\\LicensePlateRecognition1.cpp"],
+  "file": "LicensePlateRecognition\\LicensePlateRecognition1.cpp"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/C语言面向对象#Anima类/linux/x86_64/debug/c_test/C语言面向对象#Anima类.c.o", "c_test/C语言面向对象#Anima类.c"],
-  "file": "c_test/C语言面向对象#Anima类.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数据对齐.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数据对齐\\windows\\x64\\debug\\c_test\\数据对齐.c.obj", "c_test\\数据对齐.c"],
+  "file": "c_test\\数据对齐.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-o", "build/.objs/LicensePlateRecognition1/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition1.cpp.o", "LicensePlateRecognition/LicensePlateRecognition1.cpp"],
-  "file": "LicensePlateRecognition/LicensePlateRecognition1.cpp"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.二级指针#二级指针和指针数组.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\二级指针#二级指针和指针数组\\windows\\x64\\debug\\c_test\\二级指针#二级指针和指针数组.c.obj", "c_test\\二级指针#二级指针和指针数组.c"],
+  "file": "c_test\\二级指针#二级指针和指针数组.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/12_code/linux/x86_64/debug/c_test/12_code.c.o", "c_test/12_code.c"],
-  "file": "c_test/12_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数组指针与指针数组.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数组指针与指针数组\\windows\\x64\\debug\\c_test\\数组指针与指针数组.c.obj", "c_test\\数组指针与指针数组.c"],
+  "file": "c_test\\数组指针与指针数组.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/回调函数/linux/x86_64/debug/c_test/回调函数.c.o", "c_test/回调函数.c"],
-  "file": "c_test/回调函数.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.07_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\07_code\\windows\\x64\\debug\\c_test\\07_code.c.obj", "c_test\\07_code.c"],
+  "file": "c_test\\07_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/零长度数组/linux/x86_64/debug/c_test/零长度数组.c.o", "c_test/零长度数组.c"],
-  "file": "c_test/零长度数组.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.17_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\17_code\\windows\\x64\\debug\\c_test\\17_code.c.obj", "c_test\\17_code.c"],
+  "file": "c_test\\17_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/数组指定初始化/linux/x86_64/debug/c_test/数组指定初始化.c.o", "c_test/数组指定初始化.c"],
-  "file": "c_test/数组指定初始化.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.13_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\13_code\\windows\\x64\\debug\\c_test\\13_code.c.obj", "c_test\\13_code.c"],
+  "file": "c_test\\13_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/结构体成员指定初始化/linux/x86_64/debug/c_test/结构体成员指定初始化.c.o", "c_test/结构体成员指定初始化.c"],
-  "file": "c_test/结构体成员指定初始化.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数组指针作为参数传递.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数组指针作为参数传递\\windows\\x64\\debug\\c_test\\数组指针作为参数传递.c.obj", "c_test\\数组指针作为参数传递.c"],
+  "file": "c_test\\数组指针作为参数传递.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/在宏定义中使用语句表达式/linux/x86_64/debug/c_test/在宏定义中使用语句表达式.c.o", "c_test/在宏定义中使用语句表达式.c"],
-  "file": "c_test/在宏定义中使用语句表达式.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.10_code.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\10_code\\windows\\x64\\debug\\c_test\\10_code.c.obj", "c_test\\10_code.c"],
+  "file": "c_test\\10_code.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/02_code/linux/x86_64/debug/c_test/02_code.c.o", "c_test/02_code.c"],
-  "file": "c_test/02_code.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.数组与指针.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\数组与指针\\windows\\x64\\debug\\c_test\\数组与指针.c.obj", "c_test\\数组与指针.c"],
+  "file": "c_test\\数组与指针.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/内核中的aligned、packed声明/linux/x86_64/debug/c_test/内核中的aligned、packed声明.c.o", "c_test/内核中的aligned、packed声明.c"],
-  "file": "c_test/内核中的aligned、packed声明.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.二级指针.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\二级指针\\windows\\x64\\debug\\c_test\\二级指针.c.obj", "c_test\\二级指针.c"],
+  "file": "c_test\\二级指针.c"
 },
 {
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-o", "build/.objs/复杂指针分析/linux/x86_64/debug/c_test/复杂指针分析.c.o", "c_test/复杂指针分析.c"],
-  "file": "c_test/复杂指针分析.c"
+  "directory": "d:\\workspace\\MyRepositories\\LearnCPP",
+  "arguments": ["D:\\software\\VisualStudio\\2022\\Community\\VC\\Tools\\MSVC\\14.36.32532\\bin\\HostX64\\x64\\cl.exe", "/c", "/nologo", "/Zi", "/FS", "/Fdbuild\\windows\\x64\\debug\\compile.属性声明：weak.pdb", "/Od", "/Iinclude", "/EHsc", "/IC:\\Users\\yaojie\\AppData\\Local\\.xmake\\packages\\t\\tbox\\v1.7.1\\69218ee87d4441e49cc055bd3daaabc9\\include", "/utf-8", "/std:c++20", "/Fobuild\\.objs\\属性声明：weak\\windows\\x64\\debug\\c_test\\属性声明：weak.c.obj", "c_test\\属性声明：weak.c"],
+  "file": "c_test\\属性声明：weak.c"
 }]
