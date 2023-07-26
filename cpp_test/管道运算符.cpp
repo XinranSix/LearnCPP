@@ -12,6 +12,7 @@ int main() {
         std::cout << c;
     std::cout << '\n';
 
+<<< HEAD<<<<
     const std::vector<std::vector<int>> v{{1, 2}, {3, 4, 5}, {6}, {7, 8, 9}};
     auto jv = std::ranges::join_view(v);
     for (auto const e : jv)
@@ -23,6 +24,13 @@ int main() {
     for (int c : array | std::views::join)
         std::cout << c << ' ';
     std::cout << '\n';
+=======
+    std::vector<int> v{1, 2, 3};
+
+    v | [](int i){
+        std::cout << i << std::endl;
+    };
+>>>>>>> c963abc (qweqw)
 
     // 默认只能处理两层，如果多层，那么就多join几次
     int array2[2][2][2]{1, 2, 3, 4, 5, 6, 7, 8};
