@@ -1,14 +1,29 @@
-#include "module.h"
 #include <stdio.h>
+#include "device_manager.h"
 
-void func1() { printf("fun1...\n"); }
+int sd_read() {
+    printf("sd read data...\n");
+    return 10;
+}
 
-void func2() { printf("fun2...\n"); }
+int udisk_read() {
+    printf("udisk read data...\n");
+    return 20;
+}
+
+struct storage_device sd = {"sdcard", sd_read};
+struct storage_device udisk = {"udisk", udisk_read};
 
 int main() {
 
-    runcallback(func1);
-    runcallback(func2);
+    register_device(sd);
+    register_device(udisk);
+
+    read_device("udisk");
+    read_device("udisk");
+    read_device("uk");
+    read_device("sdcard");
+    read_device("sdcard");
 
     return 0;
 }
