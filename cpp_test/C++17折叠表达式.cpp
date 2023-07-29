@@ -19,6 +19,6 @@ void print(Args... args) {
 int main(int argc, char **argv) {
     std::cout << v<4, 5, 6> << '\n';  // (4 - (5 - 6)) = 5
     std::cout << v2<4, 5, 6> << '\n'; // ((4 - 5) - 6) = -7
-    print("**", 1.2, 1);  // 
+    print("**", 1.2, 1);              //
     return 0;
 }

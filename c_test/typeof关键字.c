@@ -13,7 +13,5 @@ int main(int arvc, char *argv[]) {
     printf("i = %d\n", i);
     printf("*q = %d\n", *q);
 
-    
-
     return 0;
 }
