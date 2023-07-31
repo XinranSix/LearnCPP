@@ -1,123 +1,23 @@
 [
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/17_code/linux/x86_64/debug/c_test/17_code.c.o", "c_test/17_code.c"],
-  "file": "c_test/17_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/在宏定义中使用语句表达式/linux/x86_64/debug/c_test/在宏定义中使用语句表达式.c.o", "c_test/在宏定义中使用语句表达式.c"],
+  "file": "c_test/在宏定义中使用语句表达式.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/13_code/linux/x86_64/debug/c_test/13_code.c.o", "c_test/13_code.c"],
-  "file": "c_test/13_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/C语言面向对象#链表的抽象与封装#Linux的设备管理模型/linux/x86_64/debug/c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c.o", "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"],
+  "file": "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/03_code/linux/x86_64/debug/c_test/03_code.c.o", "c_test/03_code.c"],
-  "file": "c_test/03_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参/linux/x86_64/debug/cpp_test/默认实参.cpp.o", "cpp_test/默认实参.cpp"],
+  "file": "cpp_test/默认实参.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/模板形参包/linux/x86_64/debug/cpp_test/模板形参包.cpp.o", "cpp_test/模板形参包.cpp"],
-  "file": "cpp_test/模板形参包.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/07_code/linux/x86_64/debug/c_test/07_code.c.o", "c_test/07_code.c"],
-  "file": "c_test/07_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/复杂指针分析/linux/x86_64/debug/c_test/复杂指针分析.c.o", "c_test/复杂指针分析.c"],
-  "file": "c_test/复杂指针分析.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：format/linux/x86_64/debug/c_test/属性声明：format.c.o", "c_test/属性声明：format.c"],
-  "file": "c_test/属性声明：format.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/大小端/linux/x86_64/debug/c_test/大小端.c.o", "c_test/大小端.c"],
-  "file": "c_test/大小端.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/指针与结构体#多层嵌套/linux/x86_64/debug/c_test/指针与结构体#多层嵌套.c.o", "c_test/指针与结构体#多层嵌套.c"],
-  "file": "c_test/指针与结构体#多层嵌套.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/常见的C标准库函数/linux/x86_64/debug/c_test/常见的C标准库函数.c.o", "c_test/常见的C标准库函数.c"],
-  "file": "c_test/常见的C标准库函数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：packed/linux/x86_64/debug/c_test/属性声明：packed.c.o", "c_test/属性声明：packed.c"],
-  "file": "c_test/属性声明：packed.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/自增运算符/linux/x86_64/debug/c_test/自增运算符.c.o", "c_test/自增运算符.c"],
-  "file": "c_test/自增运算符.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/concurrency_test01/linux/x86_64/debug/concurrency/concurrency_test01.cpp.o", "concurrency/concurrency_test01.cpp"],
-  "file": "concurrency/concurrency_test01.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/C++17折叠表达式/linux/x86_64/debug/cpp_test/C++17折叠表达式.cpp.o", "cpp_test/C++17折叠表达式.cpp"],
-  "file": "cpp_test/C++17折叠表达式.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/LicensePlateRecognition1/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition1.cpp.o", "LicensePlateRecognition/LicensePlateRecognition1.cpp"],
-  "file": "LicensePlateRecognition/LicensePlateRecognition1.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/02_code/linux/x86_64/debug/c_test/02_code.c.o", "c_test/02_code.c"],
-  "file": "c_test/02_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/可变参数模板/linux/x86_64/debug/cpp_test/可变参数模板.cpp.o", "cpp_test/可变参数模板.cpp"],
-  "file": "cpp_test/可变参数模板.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据溢出/linux/x86_64/debug/c_test/数据溢出.c.o", "c_test/数据溢出.c"],
-  "file": "c_test/数据溢出.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/06_code/linux/x86_64/debug/c_test/06_code.c.o", "c_test/06_code.c"],
-  "file": "c_test/06_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐/linux/x86_64/debug/c_test/数据对齐.c.o", "c_test/数据对齐.c"],
-  "file": "c_test/数据对齐.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内核中的aligned、packed声明/linux/x86_64/debug/c_test/内核中的aligned、packed声明.c.o", "c_test/内核中的aligned、packed声明.c"],
-  "file": "c_test/内核中的aligned、packed声明.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指针作为参数传递/linux/x86_64/debug/c_test/数组指针作为参数传递.c.o", "c_test/数组指针作为参数传递.c"],
-  "file": "c_test/数组指针作为参数传递.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/二级指针#二级指针和指针数组/linux/x86_64/debug/c_test/二级指针#二级指针和指针数组.c.o", "c_test/二级指针#二级指针和指针数组.c"],
-  "file": "c_test/二级指针#二级指针和指针数组.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/LicensePlateRecognition2/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition2.cpp.o", "LicensePlateRecognition/LicensePlateRecognition2.cpp"],
-  "file": "LicensePlateRecognition/LicensePlateRecognition2.cpp"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/14_code/linux/x86_64/debug/c_test/14_code.c.o", "c_test/14_code.c"],
+  "file": "c_test/14_code.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -126,78 +26,8 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/05_code/linux/x86_64/debug/c_test/05_code.c.o", "c_test/05_code.c"],
-  "file": "c_test/05_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/变参函数/linux/x86_64/debug/c_test/变参函数.c.o", "c_test/变参函数.c"],
-  "file": "c_test/变参函数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/指针与结构体/linux/x86_64/debug/c_test/指针与结构体.c.o", "c_test/指针与结构体.c"],
-  "file": "c_test/指针与结构体.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/09_code/linux/x86_64/debug/c_test/09_code.c.o", "c_test/09_code.c"],
-  "file": "c_test/09_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/有符号数和无符号数/linux/x86_64/debug/c_test/有符号数和无符号数.c.o", "c_test/有符号数和无符号数.c"],
-  "file": "c_test/有符号数和无符号数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/container_of宏/linux/x86_64/debug/c_test/container_of宏.c.o", "c_test/container_of宏.c"],
-  "file": "c_test/container_of宏.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐#persion/linux/x86_64/debug/c_test/数据对齐#persion.c.o", "c_test/数据对齐#persion.c"],
-  "file": "c_test/数据对齐#persion.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/管道运算符/linux/x86_64/debug/cpp_test/管道运算符.cpp.o", "cpp_test/管道运算符.cpp"],
-  "file": "cpp_test/管道运算符.cpp"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内联函数/linux/x86_64/debug/c_test/内联函数.c.o", "c_test/内联函数.c"],
-  "file": "c_test/内联函数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据的可移植性/linux/x86_64/debug/c_test/数据的可移植性.c.o", "c_test/数据的可移植性.c"],
-  "file": "c_test/数据的可移植性.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/常用的内建函数/linux/x86_64/debug/c_test/常用的内建函数.c.o", "c_test/常用的内建函数.c"],
-  "file": "c_test/常用的内建函数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/11_code/linux/x86_64/debug/c_test/11_code.c.o", "c_test/11_code.c"],
-  "file": "c_test/11_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/枚举类型/linux/x86_64/debug/c_test/枚举类型.c.o", "c_test/枚举类型.c"],
-  "file": "c_test/枚举类型.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/04_code/linux/x86_64/debug/c_test/04_code.c.o", "c_test/04_code.c"],
-  "file": "c_test/04_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/14_code/linux/x86_64/debug/c_test/14_code.c.o", "c_test/14_code.c"],
-  "file": "c_test/14_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/右值引用/linux/x86_64/debug/cpp_test/右值引用.cpp.o", "cpp_test/右值引用.cpp"],
+  "file": "cpp_test/右值引用.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -211,48 +41,8 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/零长度数组/linux/x86_64/debug/c_test/零长度数组.c.o", "c_test/零长度数组.c"],
-  "file": "c_test/零长度数组.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/语句表达式/linux/x86_64/debug/c_test/语句表达式.c.o", "c_test/语句表达式.c"],
-  "file": "c_test/语句表达式.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/二级指针#二级指针和二维数组/linux/x86_64/debug/c_test/二级指针#二级指针和二维数组.c.o", "c_test/二级指针#二级指针和二维数组.c"],
-  "file": "c_test/二级指针#二级指针和二维数组.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组与指针/linux/x86_64/debug/c_test/数组与指针.c.o", "c_test/数组与指针.c"],
-  "file": "c_test/数组与指针.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/01_code/linux/x86_64/debug/c_test/01_code.c.o", "c_test/01_code.c"],
-  "file": "c_test/01_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/结构体成员指定初始化/linux/x86_64/debug/c_test/结构体成员指定初始化.c.o", "c_test/结构体成员指定初始化.c"],
-  "file": "c_test/结构体成员指定初始化.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/在宏定义中使用语句表达式/linux/x86_64/debug/c_test/在宏定义中使用语句表达式.c.o", "c_test/在宏定义中使用语句表达式.c"],
-  "file": "c_test/在宏定义中使用语句表达式.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/自己的日志打印函数/linux/x86_64/debug/c_test/自己的日志打印函数.c.o", "c_test/自己的日志打印函数.c"],
-  "file": "c_test/自己的日志打印函数.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/可变参数宏/linux/x86_64/debug/c_test/可变参数宏.c.o", "c_test/可变参数宏.c"],
-  "file": "c_test/可变参数宏.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/LicensePlateRecognition1/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition1.cpp.o", "LicensePlateRecognition/LicensePlateRecognition1.cpp"],
+  "file": "LicensePlateRecognition/LicensePlateRecognition1.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -261,63 +51,28 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指定初始化/linux/x86_64/debug/c_test/数组指定初始化.c.o", "c_test/数组指定初始化.c"],
-  "file": "c_test/数组指定初始化.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/二级指针#二级指针和二维数组/linux/x86_64/debug/c_test/二级指针#二级指针和二维数组.c.o", "c_test/二级指针#二级指针和二维数组.c"],
+  "file": "c_test/二级指针#二级指针和二维数组.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/10_code/linux/x86_64/debug/c_test/10_code.c.o", "c_test/10_code.c"],
-  "file": "c_test/10_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/typeof关键字/linux/x86_64/debug/c_test/typeof关键字.c.o", "c_test/typeof关键字.c"],
+  "file": "c_test/typeof关键字.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/15_code/linux/x86_64/debug/c_test/15_code.c.o", "c_test/15_code.c"],
-  "file": "c_test/15_code.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/hello_server/linux/x86_64/debug/c_test/hello_server.c.o", "c_test/hello_server.c"],
+  "file": "c_test/hello_server.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据类型转换/linux/x86_64/debug/c_test/数据类型转换.c.o", "c_test/数据类型转换.c"],
-  "file": "c_test/数据类型转换.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/有符号数和无符号数/linux/x86_64/debug/c_test/有符号数和无符号数.c.o", "c_test/有符号数和无符号数.c"],
+  "file": "c_test/有符号数和无符号数.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/16_code/linux/x86_64/debug/c_test/16_code.c.o", "c_test/16_code.c"],
-  "file": "c_test/16_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/模拟多任务/linux/x86_64/debug/c_test/模拟多任务.c.o", "c_test/模拟多任务.c"],
-  "file": "c_test/模拟多任务.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内建函数__builtin_expect/linux/x86_64/debug/c_test/内建函数__builtin_expect.c.o", "c_test/内建函数__builtin_expect.c"],
-  "file": "c_test/内建函数__builtin_expect.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐#联合体对齐/linux/x86_64/debug/c_test/数据对齐#联合体对齐.c.o", "c_test/数据对齐#联合体对齐.c"],
-  "file": "c_test/数据对齐#联合体对齐.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/12_code/linux/x86_64/debug/c_test/12_code.c.o", "c_test/12_code.c"],
-  "file": "c_test/12_code.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/C语言面向对象#链表的抽象与封装#Linux的设备管理模型/linux/x86_64/debug/c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c.o", "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"],
-  "file": "c_test/C语言面向对象#链表的抽象与封装#Linux的设备管理模型.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指针与指针数组/linux/x86_64/debug/c_test/数组指针与指针数组.c.o", "c_test/数组指针与指针数组.c"],
-  "file": "c_test/数组指针与指针数组.c"
-},
-{
-  "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：weak/linux/x86_64/debug/c_test/属性声明：weak.c.o", "c_test/属性声明：weak.c"],
-  "file": "c_test/属性声明：weak.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/第一个多线程程序/linux/x86_64/debug/concurrency/第一个多线程程序.cpp.o", "concurrency/第一个多线程程序.cpp"],
+  "file": "concurrency/第一个多线程程序.cpp"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
@@ -326,11 +81,471 @@
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/有异常抛出时的join/linux/x86_64/debug/concurrency/有异常抛出时的join.cpp.o", "concurrency/有异常抛出时的join.cpp"],
+  "file": "concurrency/有异常抛出时的join.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/LicensePlateRecognition2/linux/x86_64/debug/LicensePlateRecognition/LicensePlateRecognition2.cpp.o", "LicensePlateRecognition/LicensePlateRecognition2.cpp"],
+  "file": "LicensePlateRecognition/LicensePlateRecognition2.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/传递非常量引用/linux/x86_64/debug/concurrency/传递非常量引用.cpp.o", "concurrency/传递非常量引用.cpp"],
+  "file": "concurrency/传递非常量引用.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参#例外情况/linux/x86_64/debug/cpp_test/默认实参#例外情况.cpp.o", "cpp_test/默认实参#例外情况.cpp"],
+  "file": "cpp_test/默认实参#例外情况.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/13_code/linux/x86_64/debug/c_test/13_code.c.o", "c_test/13_code.c"],
+  "file": "c_test/13_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/变参函数/linux/x86_64/debug/c_test/变参函数.c.o", "c_test/变参函数.c"],
+  "file": "c_test/变参函数.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/17_code/linux/x86_64/debug/c_test/17_code.c.o", "c_test/17_code.c"],
+  "file": "c_test/17_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/10_code/linux/x86_64/debug/c_test/10_code.c.o", "c_test/10_code.c"],
+  "file": "c_test/10_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/16_code/linux/x86_64/debug/c_test/16_code.c.o", "c_test/16_code.c"],
+  "file": "c_test/16_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/07_code/linux/x86_64/debug/c_test/07_code.c.o", "c_test/07_code.c"],
+  "file": "c_test/07_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指针作为参数传递/linux/x86_64/debug/c_test/数组指针作为参数传递.c.o", "c_test/数组指针作为参数传递.c"],
+  "file": "c_test/数组指针作为参数传递.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：packed/linux/x86_64/debug/c_test/属性声明：packed.c.o", "c_test/属性声明：packed.c"],
+  "file": "c_test/属性声明：packed.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/04_code/linux/x86_64/debug/c_test/04_code.c.o", "c_test/04_code.c"],
+  "file": "c_test/04_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/std::ref/linux/x86_64/debug/cpp_test/std::ref.cpp.o", "cpp_test/std::ref.cpp"],
+  "file": "cpp_test/std::ref.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：weak/linux/x86_64/debug/c_test/属性声明：weak.c.o", "c_test/属性声明：weak.c"],
+  "file": "c_test/属性声明：weak.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参#不能使用非静态的类成员/linux/x86_64/debug/cpp_test/默认实参#不能使用非静态的类成员.cpp.o", "cpp_test/默认实参#不能使用非静态的类成员.cpp"],
+  "file": "cpp_test/默认实参#不能使用非静态的类成员.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#成员函数指针/linux/x86_64/debug/cpp_test/成员指针#成员函数指针.cpp.o", "cpp_test/成员指针#成员函数指针.cpp"],
+  "file": "cpp_test/成员指针#成员函数指针.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/初始化列表/linux/x86_64/debug/cpp_test/初始化列表.cpp.o", "cpp_test/初始化列表.cpp"],
+  "file": "cpp_test/初始化列表.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/九九乘法表/linux/x86_64/debug/c_test/九九乘法表.c.o", "c_test/九九乘法表.c"],
+  "file": "c_test/九九乘法表.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组与指针/linux/x86_64/debug/c_test/数组与指针.c.o", "c_test/数组与指针.c"],
+  "file": "c_test/数组与指针.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/第一个元编程程序/linux/x86_64/debug/Template&Metaprogramming/第一个元编程程序.cpp.o", "Template&Metaprogramming/第一个元编程程序.cpp"],
+  "file": "Template&Metaprogramming/第一个元编程程序.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#成员函数重载/linux/x86_64/debug/cpp_test/成员指针#成员函数重载.cpp.o", "cpp_test/成员指针#成员函数重载.cpp"],
+  "file": "cpp_test/成员指针#成员函数重载.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/传递参数/linux/x86_64/debug/concurrency/传递参数.cpp.o", "concurrency/传递参数.cpp"],
+  "file": "concurrency/传递参数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/大小端/linux/x86_64/debug/c_test/大小端.c.o", "c_test/大小端.c"],
+  "file": "c_test/大小端.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/转移所有权/linux/x86_64/debug/concurrency/转移所有权.cpp.o", "concurrency/转移所有权.cpp"],
+  "file": "concurrency/转移所有权.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据的可移植性/linux/x86_64/debug/c_test/数据的可移植性.c.o", "c_test/数据的可移植性.c"],
+  "file": "c_test/数据的可移植性.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/只移动类/linux/x86_64/debug/concurrency/只移动类.cpp.o", "concurrency/只移动类.cpp"],
+  "file": "concurrency/只移动类.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/指针与结构体#多层嵌套/linux/x86_64/debug/c_test/指针与结构体#多层嵌套.c.o", "c_test/指针与结构体#多层嵌套.c"],
+  "file": "c_test/指针与结构体#多层嵌套.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
   "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：alias/linux/x86_64/debug/c_test/属性声明：alias.c.o", "c_test/属性声明：alias.c"],
   "file": "c_test/属性声明：alias.c"
 },
 {
   "directory": "/home/yaojie/workspace/code/LearnCPP",
-  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/typeof关键字/linux/x86_64/debug/c_test/typeof关键字.c.o", "c_test/typeof关键字.c"],
-  "file": "c_test/typeof关键字.c"
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/constexpr/linux/x86_64/debug/cpp_test/constexpr.cpp.o", "cpp_test/constexpr.cpp"],
+  "file": "cpp_test/constexpr.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/使用分离线程处理文档/linux/x86_64/debug/concurrency/使用分离线程处理文档.cpp.o", "concurrency/使用分离线程处理文档.cpp"],
+  "file": "concurrency/使用分离线程处理文档.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/模板形参包/linux/x86_64/debug/cpp_test/模板形参包.cpp.o", "cpp_test/模板形参包.cpp"],
+  "file": "cpp_test/模板形参包.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/常见的C标准库函数/linux/x86_64/debug/c_test/常见的C标准库函数.c.o", "c_test/常见的C标准库函数.c"],
+  "file": "c_test/常见的C标准库函数.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/动态对象的所有权到线程中/linux/x86_64/debug/concurrency/动态对象的所有权到线程中.cpp.o", "concurrency/动态对象的所有权到线程中.cpp"],
+  "file": "concurrency/动态对象的所有权到线程中.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/右值引用和函数模板/linux/x86_64/debug/concurrency/右值引用和函数模板.cpp.o", "concurrency/右值引用和函数模板.cpp"],
+  "file": "concurrency/右值引用和函数模板.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内联函数/linux/x86_64/debug/c_test/内联函数.c.o", "c_test/内联函数.c"],
+  "file": "c_test/内联函数.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/零长度数组/linux/x86_64/debug/c_test/零长度数组.c.o", "c_test/零长度数组.c"],
+  "file": "c_test/零长度数组.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/02_code/linux/x86_64/debug/c_test/02_code.c.o", "c_test/02_code.c"],
+  "file": "c_test/02_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/06_code/linux/x86_64/debug/c_test/06_code.c.o", "c_test/06_code.c"],
+  "file": "c_test/06_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/使用RAII等待线程完成/linux/x86_64/debug/concurrency/使用RAII等待线程完成.cpp.o", "concurrency/使用RAII等待线程完成.cpp"],
+  "file": "concurrency/使用RAII等待线程完成.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/删除函数/linux/x86_64/debug/concurrency/删除函数.cpp.o", "concurrency/删除函数.cpp"],
+  "file": "concurrency/删除函数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/函数返回std::thread对象/linux/x86_64/debug/concurrency/函数返回std::thread对象.cpp.o", "concurrency/函数返回std::thread对象.cpp"],
+  "file": "concurrency/函数返回std::thread对象.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/枚举类型/linux/x86_64/debug/c_test/枚举类型.c.o", "c_test/枚举类型.c"],
+  "file": "c_test/枚举类型.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据溢出/linux/x86_64/debug/c_test/数据溢出.c.o", "c_test/数据溢出.c"],
+  "file": "c_test/数据溢出.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内核中的aligned、packed声明/linux/x86_64/debug/c_test/内核中的aligned、packed声明.c.o", "c_test/内核中的aligned、packed声明.c"],
+  "file": "c_test/内核中的aligned、packed声明.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#运算符重载/linux/x86_64/debug/cpp_test/成员指针#运算符重载.cpp.o", "cpp_test/成员指针#运算符重载.cpp"],
+  "file": "cpp_test/成员指针#运算符重载.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#解释成员指针都存了什么/linux/x86_64/debug/cpp_test/成员指针#解释成员指针都存了什么.cpp.o", "cpp_test/成员指针#解释成员指针都存了什么.cpp"],
+  "file": "cpp_test/成员指针#解释成员指针都存了什么.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认函数/linux/x86_64/debug/cpp_test/默认函数.cpp.o", "cpp_test/默认函数.cpp"],
+  "file": "cpp_test/默认函数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/std::thread作为参数传递/linux/x86_64/debug/concurrency/std::thread作为参数传递.cpp.o", "concurrency/std::thread作为参数传递.cpp"],
+  "file": "concurrency/std::thread作为参数传递.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/09_code/linux/x86_64/debug/c_test/09_code.c.o", "c_test/09_code.c"],
+  "file": "c_test/09_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/自增运算符/linux/x86_64/debug/c_test/自增运算符.c.o", "c_test/自增运算符.c"],
+  "file": "c_test/自增运算符.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐#persion/linux/x86_64/debug/c_test/数据对齐#persion.c.o", "c_test/数据对齐#persion.c"],
+  "file": "c_test/数据对齐#persion.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/结构体成员指定初始化/linux/x86_64/debug/c_test/结构体成员指定初始化.c.o", "c_test/结构体成员指定初始化.c"],
+  "file": "c_test/结构体成员指定初始化.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/指针与结构体/linux/x86_64/debug/c_test/指针与结构体.c.o", "c_test/指针与结构体.c"],
+  "file": "c_test/指针与结构体.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/常用的内建函数/linux/x86_64/debug/c_test/常用的内建函数.c.o", "c_test/常用的内建函数.c"],
+  "file": "c_test/常用的内建函数.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员函数#std::bind/linux/x86_64/debug/cpp_test/成员函数#std::bind.cpp.o", "cpp_test/成员函数#std::bind.cpp"],
+  "file": "cpp_test/成员函数#std::bind.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/lambda/linux/x86_64/debug/cpp_test/lambda.cpp.o", "cpp_test/lambda.cpp"],
+  "file": "cpp_test/lambda.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/属性声明：format/linux/x86_64/debug/c_test/属性声明：format.c.o", "c_test/属性声明：format.c"],
+  "file": "c_test/属性声明：format.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/可变参数宏/linux/x86_64/debug/c_test/可变参数宏.c.o", "c_test/可变参数宏.c"],
+  "file": "c_test/可变参数宏.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/11_code/linux/x86_64/debug/c_test/11_code.c.o", "c_test/11_code.c"],
+  "file": "c_test/11_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参#静态类型与动态类型/linux/x86_64/debug/cpp_test/默认实参#静态类型与动态类型.cpp.o", "cpp_test/默认实参#静态类型与动态类型.cpp"],
+  "file": "cpp_test/默认实参#静态类型与动态类型.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#数据成员指针/linux/x86_64/debug/cpp_test/成员指针#数据成员指针.cpp.o", "cpp_test/成员指针#数据成员指针.cpp"],
+  "file": "cpp_test/成员指针#数据成员指针.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/内建函数__builtin_expect/linux/x86_64/debug/c_test/内建函数__builtin_expect.c.o", "c_test/内建函数__builtin_expect.c"],
+  "file": "c_test/内建函数__builtin_expect.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/复杂指针分析/linux/x86_64/debug/c_test/复杂指针分析.c.o", "c_test/复杂指针分析.c"],
+  "file": "c_test/复杂指针分析.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指定初始化/linux/x86_64/debug/c_test/数组指定初始化.c.o", "c_test/数组指定初始化.c"],
+  "file": "c_test/数组指定初始化.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/模拟多任务/linux/x86_64/debug/c_test/模拟多任务.c.o", "c_test/模拟多任务.c"],
+  "file": "c_test/模拟多任务.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/container_of宏/linux/x86_64/debug/c_test/container_of宏.c.o", "c_test/container_of宏.c"],
+  "file": "c_test/container_of宏.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/函数已经返回，线程依旧访问局部变量/linux/x86_64/debug/concurrency/函数已经返回，线程依旧访问局部变量.cpp.o", "concurrency/函数已经返回，线程依旧访问局部变量.cpp"],
+  "file": "concurrency/函数已经返回，线程依旧访问局部变量.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/01_code/linux/x86_64/debug/c_test/01_code.c.o", "c_test/01_code.c"],
+  "file": "c_test/01_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐#联合体对齐/linux/x86_64/debug/c_test/数据对齐#联合体对齐.c.o", "c_test/数据对齐#联合体对齐.c"],
+  "file": "c_test/数据对齐#联合体对齐.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认函数#聚合初始化函数进行初始化/linux/x86_64/debug/cpp_test/默认函数#聚合初始化函数进行初始化.cpp.o", "cpp_test/默认函数#聚合初始化函数进行初始化.cpp"],
+  "file": "cpp_test/默认函数#聚合初始化函数进行初始化.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/自己的日志打印函数/linux/x86_64/debug/c_test/自己的日志打印函数.c.o", "c_test/自己的日志打印函数.c"],
+  "file": "c_test/自己的日志打印函数.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/15_code/linux/x86_64/debug/c_test/15_code.c.o", "c_test/15_code.c"],
+  "file": "c_test/15_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/移动语义/linux/x86_64/debug/cpp_test/移动语义.cpp.o", "cpp_test/移动语义.cpp"],
+  "file": "cpp_test/移动语义.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据对齐/linux/x86_64/debug/c_test/数据对齐.c.o", "c_test/数据对齐.c"],
+  "file": "c_test/数据对齐.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参#默认实参造成的默认构造函数/linux/x86_64/debug/cpp_test/默认实参#默认实参造成的默认构造函数.cpp.o", "cpp_test/默认实参#默认实参造成的默认构造函数.cpp"],
+  "file": "cpp_test/默认实参#默认实参造成的默认构造函数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数据类型转换/linux/x86_64/debug/c_test/数据类型转换.c.o", "c_test/数据类型转换.c"],
+  "file": "c_test/数据类型转换.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/默认实参#默认实参在不求值语句中使用局部变量/linux/x86_64/debug/cpp_test/默认实参#默认实参在不求值语句中使用局部变量.cpp.o", "cpp_test/默认实参#默认实参在不求值语句中使用局部变量.cpp"],
+  "file": "cpp_test/默认实参#默认实参在不求值语句中使用局部变量.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/常量表达式对象/linux/x86_64/debug/cpp_test/常量表达式对象.cpp.o", "cpp_test/常量表达式对象.cpp"],
+  "file": "cpp_test/常量表达式对象.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/可变参数模板/linux/x86_64/debug/cpp_test/可变参数模板.cpp.o", "cpp_test/可变参数模板.cpp"],
+  "file": "cpp_test/可变参数模板.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/二级指针#二级指针和指针数组/linux/x86_64/debug/c_test/二级指针#二级指针和指针数组.c.o", "c_test/二级指针#二级指针和指针数组.c"],
+  "file": "c_test/二级指针#二级指针和指针数组.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/管道运算符/linux/x86_64/debug/cpp_test/管道运算符.cpp.o", "cpp_test/管道运算符.cpp"],
+  "file": "cpp_test/管道运算符.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/数组指针与指针数组/linux/x86_64/debug/c_test/数组指针与指针数组.c.o", "c_test/数组指针与指针数组.c"],
+  "file": "c_test/数组指针与指针数组.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/03_code/linux/x86_64/debug/c_test/03_code.c.o", "c_test/03_code.c"],
+  "file": "c_test/03_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/（一般）默认构造函数的类/linux/x86_64/debug/cpp_test/（一般）默认构造函数的类.cpp.o", "cpp_test/（一般）默认构造函数的类.cpp"],
+  "file": "cpp_test/（一般）默认构造函数的类.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/C++17折叠表达式/linux/x86_64/debug/cpp_test/C++17折叠表达式.cpp.o", "cpp_test/C++17折叠表达式.cpp"],
+  "file": "cpp_test/C++17折叠表达式.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员函数作为线程函数/linux/x86_64/debug/concurrency/成员函数作为线程函数.cpp.o", "concurrency/成员函数作为线程函数.cpp"],
+  "file": "concurrency/成员函数作为线程函数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/std::valarray/linux/x86_64/debug/cpp_test/std::valarray.cpp.o", "cpp_test/std::valarray.cpp"],
+  "file": "cpp_test/std::valarray.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/使用移动构造函数的类/linux/x86_64/debug/concurrency/使用移动构造函数的类.cpp.o", "concurrency/使用移动构造函数的类.cpp"],
+  "file": "concurrency/使用移动构造函数的类.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/j/jsoncpp/1.9.5/6a59121558c24c01a73b20670010be3a/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/成员指针#成员函数指针#参数/linux/x86_64/debug/cpp_test/成员指针#成员函数指针#参数.cpp.o", "cpp_test/成员指针#成员函数指针#参数.cpp"],
+  "file": "cpp_test/成员指针#成员函数指针#参数.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/启动线程/linux/x86_64/debug/concurrency/启动线程.cpp.o", "concurrency/启动线程.cpp"],
+  "file": "concurrency/启动线程.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/12_code/linux/x86_64/debug/c_test/12_code.c.o", "c_test/12_code.c"],
+  "file": "c_test/12_code.c"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-std=c++20", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/f/fmt/10.0.0/cf4a2efd8ed34f738dfde8eaa4fb9660/include", "-I", "/home/yaojie/.xmake/packages/g/gtest/1.12.1/77b9096bc4b34d9282f672d36b015ba9/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/分离线程/linux/x86_64/debug/concurrency/分离线程.cpp.o", "concurrency/分离线程.cpp"],
+  "file": "concurrency/分离线程.cpp"
+},
+{
+  "directory": "/home/yaojie/workspace/code/LearnCPP",
+  "arguments": ["/usr/bin/gcc", "-c", "-m64", "-g", "-O0", "-Iinclude", "-I", "/home/yaojie/.xmake/packages/t/tbox/v1.7.1/806b3ca1a99341c293542b7ffe40f7b8/include", "-fexec-charset=UTF-8", "-fextended-identifiers", "-finput-charset=UTF-8", "-o", "build/.objs/语句表达式/linux/x86_64/debug/c_test/语句表达式.c.o", "c_test/语句表达式.c"],
+  "file": "c_test/语句表达式.c"
 }]

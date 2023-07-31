@@ -77,6 +77,8 @@
         "C语言面向对象.C": "cpp",
         "C语言面向对象#Anima类.C": "cpp",
         "ranges": "cpp",
-        "optional": "cpp"
+        "optional": "cpp",
+        "valarray": "cpp",
+        "complex": "cpp"
     }
 }

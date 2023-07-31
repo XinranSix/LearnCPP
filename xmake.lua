@@ -10,6 +10,7 @@ add_requires("openssl") -- openssl
 add_requires("jsoncpp") -- jsoncpp
 add_requires("boost", {configs = {all = true}}) -- boost
 add_requires("tbox", "zlib", "libpng","libsdl","libsdl_image")
+add_requires("eigen") -- 矩阵库
 
 if is_plat("windows") then
     add_cxflags("/utf-8", "/std:c++20")
@@ -21,4 +22,5 @@ includes("c_test")
 includes("cpp_test")
 includes("concurrency")
 includes("LicensePlateRecognition")
+includes("Template&Metaprogramming")
 
