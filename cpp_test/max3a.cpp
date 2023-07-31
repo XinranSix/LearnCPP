@@ -22,7 +22,7 @@ int main(int arvc, char *argv[]) {
     const char *s1 = "frederic";
     const char *s2 = "anica";
     const char *s3 = "lucas";
-    // ::max(s1, s2, s3);
+    ::max(s1, s2, s3); // 错误
 
     return 0;
 }

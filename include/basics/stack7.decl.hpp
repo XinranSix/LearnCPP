@@ -1,6 +1,9 @@
 #include <deque>
+#include <memory>
 
-template<typename T, template<typename ELEM> class CONT = std::deque>
+template<typename T,
+         template<typename ELEM, typename ALLOC = std::allocator<ELEM>>
+         class CONT = std::deque>
 class Stack {
 private:
     CONT<T> elems;
