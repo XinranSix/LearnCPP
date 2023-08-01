@@ -23,4 +23,5 @@ includes("cpp_test")
 includes("concurrency")
 includes("LicensePlateRecognition")
 includes("Template&Metaprogramming")
+includes("DesignPatterns")
 

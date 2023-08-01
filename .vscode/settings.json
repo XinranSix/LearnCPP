@@ -79,6 +79,7 @@
         "ranges": "cpp",
         "optional": "cpp",
         "valarray": "cpp",
-        "complex": "cpp"
+        "complex": "cpp",
+        "variant": "cpp"
     }
 }
