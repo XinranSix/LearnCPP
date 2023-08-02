@@ -20,10 +20,4 @@ void f(int (&)[24 / (4 + I)]);
 
 #define type_has_member_type_X(T) (sizeof(test<T>(0)) == 1)
 
-int main(int arvc, char *argv[]) {
-
-
-
-
-    return 0;
-}
+int main(int arvc, char *argv[]) { return 0; }
