@@ -1,3 +1,4 @@
+#include <boost/bind.hpp>
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -11,9 +12,8 @@ int main() {
     v.push_back(3);
     v.push_back(2);
 
-    std::for_each(
-        v.begin(), v.end(),
-        std::bind(add, 10, std::placeholders::_1, std::ref(std::cout)));
+    std::for_each(v.begin(), v.end(),
+                  boost::bind(add, 10, _1, boost::ref(std::cout)));
 
     return 0;
 }

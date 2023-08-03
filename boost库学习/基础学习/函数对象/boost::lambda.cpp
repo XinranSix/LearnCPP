@@ -1,11 +1,10 @@
+#include <boost/lambda/lambda.hpp>
+#include <boost/lambda/if.hpp>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
-void add(int i, int j, std::ostream &os) { os << i + j << std::endl; }
-
 int main() {
-
     std::vector<int> v;
     v.push_back(1);
     v.push_back(3);
@@ -13,7 +12,8 @@ int main() {
 
     std::for_each(
         v.begin(), v.end(),
-        std::bind(add, 10, std::placeholders::_1, std::ref(std::cout)));
+        boost::lambda::if_then(boost::lambda::_1 > 1,
+                               std::cout << boost::lambda::_1 << "\n"));
 
     return 0;
 }
