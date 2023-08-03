@@ -19,9 +19,14 @@ else
 end
 
 includes("c_test")
-includes("cpp_test")
-includes("concurrency")
-includes("LicensePlateRecognition")
-includes("Template&Metaprogramming")
-includes("DesignPatterns")
 
+for _, filepath in ipairs(os.files("./**.cpp")) do
+target(path.basename(filepath))
+    add_files(filepath)
+    set_rundir(path.directory(filepath))
+    add_packages("fmt", "boost", "openssl", "jsoncpp", "ftxui", "gtest", "eigen")
+    add_links("jsoncpp", "curl")
+    after_build(function (target)
+        os.cp("images", target:targetdir())
+    end)
+end

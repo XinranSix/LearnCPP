@@ -12,7 +12,7 @@ int main(int arvc, char *argv[]) {
 
     std::unique_ptr<big_object> p(new big_object);
     p->prepare_data(42);
-    std::thread t(process_big_object, std::move(p));
+    // std::thread t(process_big_object, std::move(p));
 
     return 0;
 }

@@ -10,7 +10,7 @@ int main(int arvc, char *argv[]) {
 
     int &&i = 42;
     int j = 42;
-    int &&k = j;
+    // int &&k = j;
 
     return 0;
 }

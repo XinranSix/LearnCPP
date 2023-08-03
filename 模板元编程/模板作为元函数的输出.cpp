@@ -16,16 +16,12 @@ struct Fun_<false> {
     using type = std::remove_reference<T>;
 };
 
-template<typename T>
-template<bool AddOrRemove>
+template<bool AddOrRemove, typename T>
 using Fun = typename Fun_<AddOrRemove>::template type<T>;
 
-// template<bool AddOrRemove, typename T>
-// using Fun = typename Fun_<AddOrRemove>::template type<T>;
+template<typename T>
+using Res_ = Fun<false, T>;
 
-// template<typename T>
-// using Res_ = Fun<false, T>;
-
-// Res_<int &>::type h = 3;
+Res_<int &>::type h = 3;
 
 int main(int arvc, char *argv[]) { return 0; }
