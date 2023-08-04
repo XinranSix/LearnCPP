@@ -14,4 +14,4 @@ void nonref(T x) {
 int main() {
     ref("hello");
     nonref("hello");
-}
+}:

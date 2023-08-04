@@ -1,5 +1,5 @@
-#include <vector>
 #include <boost/ptr_container/ptr_vector.hpp>
+#include <vector>
 
 template<typename T>
 T *create() {

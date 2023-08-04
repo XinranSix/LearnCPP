@@ -1,6 +1,6 @@
-#include <iostream>
-#include <cstring>
 #include <boost/shared_array.hpp>
+#include <cstring>
+#include <iostream>
 
 boost::shared_array<char> get(const boost::shared_array<char> s) {
     int size = std::strlen(s.get());

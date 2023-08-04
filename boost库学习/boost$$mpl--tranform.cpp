@@ -2,6 +2,7 @@
 #include <boost/static_assert.hpp>
 #include <boost/mpl/plus.hpp>
 #include <boost/mpl/int.hpp>
+#include <boost/bind.hpp>
 
 namespace mpl = boost::mpl;
 
