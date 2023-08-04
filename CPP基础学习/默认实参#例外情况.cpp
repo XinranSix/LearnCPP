@@ -10,6 +10,8 @@ void f_(int n = 6, Args... args) {
     std::cout << n << '\n';
 }
 
+void f() = delete;
+
 int main(int arvc, char *argv[]) {
     X().f();
     X<int>().f(1, 2);
