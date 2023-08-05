@@ -7,10 +7,10 @@ int main(int arvc, char *argv[]) {
     int i = 1;
     int j = 0;
 
-    void f2(int n = sizeof f);
+    // void f2(int n = sizeof f);
     // void f2(int n = i + j);
 
-    f2();
+    // f2();
 
     return 0;
 }
