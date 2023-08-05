@@ -1,32 +1,34 @@
 #include <cstddef>
 #include <iostream>
-#include <type_traits>
-#include <utility>
 
-template<size_t V>
-constexpr bool is_zero = (V == 0);
+template<size_t val>
+constexpr static bool is_one = (val == 1);
 
 template<bool cur, typename TNext>
-constexpr static bool AndValue = false;
+constexpr static bool or_value = true;
 
 template<typename TNext>
-constexpr static bool AndValue<true, TNext> = TNext::value;
+constexpr static bool or_value<false, TNext> = TNext::value;
 
-template<typename T>
-struct has_one {
+template<size_t... Vals>
+struct X_ {
     constexpr static bool value = false;
 };
 
-template<size_t V>
-struct has_one<std::index_sequence<V>> {
-    constexpr static bool value = is_zero<V>;
+template<size_t First, size_t... Others>
+struct X_<First, Others...> {
+    constexpr static bool value = or_value<is_one<First>, X_<Others...>>;
 };
 
-template<size_t V, size_t... Ns>
-struct has_one<std::index_sequence<V, Ns...>> {
-    constexpr static bool cur_is_zero = is_zero<V>;
-    constexpr static bool value =
-        AndValue<cur_is_zero, has_one<std::index_sequence<Ns...>>>;
-};
+template<size_t... Vals>
+constexpr static bool X = X_<Vals...>::value;
 
-int main(int arvc, char *argv[]) { return 0; }
+int main(int arvc, char *argv[]) {
+
+    std::cout << X<1, 2, 3, 5> << std::endl;
+    std::cout << X<2, 3, 5> << std::endl;
+    std::cout << X<2, 3, 1, 5> << std::endl;
+    std::cout << X<> << std::endl;
+
+    return 0;
+}

@@ -1,15 +1,18 @@
-#include <cstddef>
 #include <iostream>
 
-template<size_t size, typename T>
-struct is_equal_size {
-    constexpr static bool value = size == sizeof(T);
+template<typename T, size_t size>
+struct X_ {
+    constexpr static bool value = sizeof(T) == size;
 };
+
+template<typename T, size_t size>
+constexpr static bool X = X_<T, size>::value;
 
 int main(int arvc, char *argv[]) {
 
-    std::cout << is_equal_size<4, int>::value << std::endl;
-    std::cout << is_equal_size<5, int>::value << std::endl;
+    std::cout << X<int, 4> << std::endl;
+    std::cout << X<int *, 8> << std::endl;
+    std::cout << X<int &, 4> << std::endl;
 
     return 0;
 }

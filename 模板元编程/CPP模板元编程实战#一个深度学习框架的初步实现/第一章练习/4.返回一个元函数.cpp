@@ -1,25 +1,18 @@
 #include <iostream>
 
 template<typename T>
-struct C {};
+struct X {};
 
 template<typename T>
-struct B {
-    template<typename T1>
-    using type = C<T1>;
+struct Y {
+    template<typename U>
+    using type = X<U>;
 };
 
 template<typename T>
-struct A {
-    template<typename T1>
-    using type = B<T1>;
+struct Z {
+    template<typename U>
+    using type = Y<U>;
 };
 
-int main(int arvc, char *argv[]) {
-
-    using F = A<int>::type<int>::type<int>;
-
-    auto f = F{};
-
-    return 0;
-}
+int main(int arvc, char *argv[]) { return 0; }

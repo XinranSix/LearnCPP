@@ -1,16 +1,21 @@
 #include <iostream>
 
 template<typename T>
-struct size_of_type {
+struct SizeOfType_ {
     constexpr static size_t value = sizeof(T);
 };
 
+template<typename T>
+constexpr static size_t SizeOfType = SizeOfType_<T>::value;
+
 int main(int arvc, char *argv[]) {
 
-    std::cout << size_of_type<char>::value << std::endl;
-    std::cout << size_of_type<int>::value << std::endl;
-    std::cout << size_of_type<float>::value << std::endl;
-    std::cout << size_of_type<double>::value << std::endl;
+    std::cout << SizeOfType<int> << std::endl;
+    std::cout << SizeOfType<int &> << std::endl;
+    std::cout << SizeOfType<int *> << std::endl;
+    std::cout << SizeOfType<int **> << std::endl;
+    std::cout << SizeOfType<int ***> << std::endl;
+    std::cout << SizeOfType<int ***> << std::endl;
 
     return 0;
 }

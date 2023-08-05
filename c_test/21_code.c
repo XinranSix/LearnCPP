@@ -2,6 +2,13 @@
 #include <stddef.h>
 
 void test01() {
+    /*
+    int 4
+    char 1
+    int a[4] 16
+    int (*p)[4]
+    p + 1
+    */
     printf("---------test01----------\n");
     int a[5] = {1, 2, 3, 4, 5};
     int *ptr = (int *)(&a + 1);
@@ -73,7 +80,11 @@ void test05() {
 
 void test06() {
     printf("---------test06----------\n");
-    int aa[2][5] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    int aa[2][5] = {
+        //
+        1, 2, 3, 4, 5, //
+        6, 7, 8, 9, 10 //
+    };
     int *ptr1 = (int *)(&aa + 1);
     int *ptr2 = (int *)(*(aa + 1));
     printf("%d, %d\n", *(ptr1 - 1), *(ptr2 - 1));
@@ -82,7 +93,6 @@ void test06() {
 void test07() {
     printf("---------test07----------\n");
     char *a[] = {"work", "at", "alibaba"};
-    // 表示有一个数组，其中的元素都是指且指向char类型的数据
     char **pa = a;
     pa++;
     printf("%s\n", *pa);
