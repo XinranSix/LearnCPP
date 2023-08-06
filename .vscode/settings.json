@@ -80,6 +80,7 @@
         "optional": "cpp",
         "valarray": "cpp",
         "complex": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "xstring": "cpp"
     }
 }

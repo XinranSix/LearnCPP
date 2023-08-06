@@ -21,7 +21,9 @@ private:
     double m_radius;
 };
 
-void fun(int i) {}
+void func(int i) {}
+
+// void func(double i) {}
 
 int main(int arvc, char *argv[]) {
     CircleStruct myCircle1 = {10, 10, 2.5};

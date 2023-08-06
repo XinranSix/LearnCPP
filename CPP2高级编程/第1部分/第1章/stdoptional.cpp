@@ -21,7 +21,7 @@ int main(int arvc, char *argv[]) {
     std::cout << "data1.value = " << data1.value() << std::endl;
     std::cout << "data1.value = " << *data1 << std::endl;
 
-    std::cout << "data2.value = " << data2.value_or(0) << std::endl;
+    std::cout << "data2.value = " << data2.value_or(12) << std::endl;
 
     return 0;
 }

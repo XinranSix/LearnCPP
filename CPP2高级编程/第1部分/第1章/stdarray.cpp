@@ -4,7 +4,10 @@
 
 int main(int arvc, char *argv[]) {
 
-    std::array<int, 3> arr{9, 8, 7};
+    // CTAD: 自动推导
+    // <int, 3>
+    std::array arr{9, 8, 7};
+
     std::cout << std::format("Array size = {}", arr.size()) << std::endl;
     std::cout << std::format("2nd element = {}", arr[1]) << std::endl;
 

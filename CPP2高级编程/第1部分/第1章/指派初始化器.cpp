@@ -10,7 +10,7 @@ struct Employee {
 int main(int arvc, char *argv[]) {
 
     // 好处：加入新的成员可以继续使用这个初始化器
-    // 感觉不如 avaj 的 @Data 。
+    // 感觉不如 avaj 的 @Data
     Employee anEmployee{.firstInitial = 'J',
                         .lastInitial = 'D',
                         // .emp1loyeeNumber = 42,

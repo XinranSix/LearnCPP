@@ -11,15 +11,15 @@ public:
     AirlineTicket();
     ~AirlineTicket(){};
 
-    double calculatePriceInDouble();
+    double calculatePriceInDollars() const;
 
-    std::string getPassengerName();
-    void setPassengerName(std::string name);
+    std::string getPassengerName() const;
+    void setPassengerName(std::string const &name);
 
-    int getNumberOfMiles();
+    int getNumberOfMiles() const;
     void setNumberOfMiles(int miles);
 
-    bool hasEliteSuperRewardsStatus();
+    bool hasEliteSuperRewardsStatus() const;
     void setEliteSuperRewardsStatus(bool status);
 
 private:
@@ -30,24 +30,24 @@ private:
 
 AirlineTicket::AirlineTicket() {}
 
-double AirlineTicket::calculatePriceInDouble() {
+double AirlineTicket::calculatePriceInDollars() const {
     if (hasEliteSuperRewardsStatus()) {
         return 0;
     }
     return getNumberOfMiles() * 0.1;
 }
 
-void AirlineTicket::setPassengerName(std::string name) {
+void AirlineTicket::setPassengerName(std::string const &name) {
     m_passengerName = name;
 }
 
-std::string AirlineTicket::getPassengerName() { return m_passengerName; }
+std::string AirlineTicket::getPassengerName() const { return m_passengerName; }
 
-int AirlineTicket::getNumberOfMiles() { return m_numberOfMiles; }
+int AirlineTicket::getNumberOfMiles() const { return m_numberOfMiles; }
 
 void AirlineTicket::setNumberOfMiles(int miles) { m_numberOfMiles = miles; }
 
-bool AirlineTicket::hasEliteSuperRewardsStatus() {
+bool AirlineTicket::hasEliteSuperRewardsStatus() const {
     return m_hasEliteSuperRewardStatus;
 }
 
@@ -61,7 +61,7 @@ int main(int arvc, char *argv[]) {
 
     myTicket.setPassengerName("Sherman T. Socketwrench");
     myTicket.setNumberOfMiles(700);
-    double cont{myTicket.calculatePriceInDouble()};
+    double cont{myTicket.calculatePriceInDollars()};
 
     std::cout << std::format("This ticket will cost ${}", cont) << std::endl;
 

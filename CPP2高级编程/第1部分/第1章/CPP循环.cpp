@@ -7,8 +7,6 @@
 #include <optional>
 #include <initializer_list>
 
-
-
 int main(int arvc, char *argv[]) {
 
     std::array arr{1, 2, 3, 4};

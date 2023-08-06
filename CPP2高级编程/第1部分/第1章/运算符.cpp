@@ -59,8 +59,8 @@ int main(int arvc, char *argv[]) {
 
     std::cout << someDouble << std::endl;
 
-    int x = {34 + 8 * 2 + 21 / 7 % 2};
-    int y = {34 + (8 * 2) + ((21 / 7) % 2)};
+    int x{34 + 8 * 2 + 21 / 7 % 2};
+    int y{34 + (8 * 2) + ((21 / 7) % 2)};
 
     return 0;
 }
