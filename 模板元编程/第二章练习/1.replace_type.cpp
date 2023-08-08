@@ -63,62 +63,62 @@ struct replace_type<NC &&, X, Y> {
 /* -------------------------------------------------------------------------- */
 template<typename NC, typename X, typename Y>
 struct replace_type<const NC, X, Y> {
-    using type = const replace_type<NC, X, Y>::type;
+    using type = const typename replace_type<NC, X, Y>::type;
 };
 
 template<typename NC, typename X, typename Y>
 struct replace_type<volatile NC, X, Y> {
-    using type = volatile replace_type<NC, X, Y>::type;
+    using type = volatile typename replace_type<NC, X, Y>::type;
 };
 /* -------------------------------------------------------------------------- */
 template<typename NC, typename NX, typename Y>
 struct replace_type<NC *, NX *, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y, size_t size>
 struct replace_type<NC[size], NX[size], Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<NC &, NX &, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<NC &&, NX &&, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<const NC, const NX, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<volatile NC, volatile NX, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<volatile const NC, volatile NX, Y> {
-    using type = const replace_type<NC, NX, Y>::type;
+    using type = const typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<volatile const NC, const NX, Y> {
-    using type = volatile replace_type<NC, NX, Y>::type;
+    using type = volatile typename replace_type<NC, NX, Y>::type;
 };
 
 template<typename NC, typename NX, typename Y>
 struct replace_type<volatile const NC, volatile const NX, Y> {
-    using type = replace_type<NC, NX, Y>::type;
+    using type = typename replace_type<NC, NX, Y>::type;
 };
 /* -------------------------------------------------------------------------- */
 template<typename X, typename Y, typename NCR>
 struct replace_type<NCR(), X, Y> {
-    using type = replace_type<NCR, X, Y>::type;
+    using type = typename replace_type<NCR, X, Y>::type;
 };
 
 template<typename X, typename Y, typename NCR, typename NC1>

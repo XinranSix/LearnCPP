@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <functional>
 
 void add(int i, int j, std::ostream &os) { os << i + j << std::endl; }
 

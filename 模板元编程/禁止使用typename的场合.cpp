@@ -24,8 +24,8 @@ struct vector {
 
 /* -------------------------------------------------------------------------- */
 // 但下面例子中 typename 是必不可少的，因为 T::value_type 不是一个基类的名字
-template<typename T>
-struct get_value : std::unary_function<T, typename T::value_type> {};
+// template<typename T>
+// struct get_value : std::unary_function<T, typename T::value_type> {};
 /* -------------------------------------------------------------------------- */
 
 int main(int arvc, char *argv[]) { return 0; }

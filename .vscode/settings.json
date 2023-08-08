@@ -81,6 +81,7 @@
         "valarray": "cpp",
         "complex": "cpp",
         "variant": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "format": "cpp"
     }
 }
