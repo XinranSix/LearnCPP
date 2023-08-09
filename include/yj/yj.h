@@ -8,4 +8,16 @@
 #include "type_traits.hpp"
 #include "tools/output_container.h"
 
+#include <array>
+#include <iostream>
+#include <vector>
+#include <type_traits>
+#include <stack>
+#include <map>
+#include <queue>
+#include <algorithm>
+#include <functional>
+
+#include <gtest/gtest.h>
+
 #endif

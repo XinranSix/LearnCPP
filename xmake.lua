@@ -3,7 +3,7 @@ set_languages("cxx20")
 
 add_includedirs("include")
 
-add_requires("fmt") -- fmt 库
+-- add_requires("fmt") -- fmt 库
 add_requires("sqlite3") -- sqlite3 
 add_requires("ftxui") -- ftxui 库
 add_requires("gtest") -- google test
@@ -27,11 +27,7 @@ add_requires("rttr") -- 反射库
 add_requires("matplotplusplus") -- 
 add_requires("gsl") -- 
 add_requires("cgal") -- 
--- add_requires("petsc") -- 
--- add_requires("pooma") -- 
--- add_requires("mtl") -- 
--- add_requires("lapackplusplus") -- 
--- add_requires("uBLAS") -- 
+add_requires("libevent") -- 
 
 
 add_cxflags("/utf-8", "/std:c++20")
@@ -40,5 +36,5 @@ for _, filepath in ipairs(os.files("./**.cpp")) do
 target(path.basename(filepath))
     add_files(filepath)
     set_rundir(path.directory(filepath))
-    add_packages("fmt", "boost", "ftxui", "gtest", "eigen", "armadillo", "range-v3", "gsl")
+    add_packages("boost", "ftxui", "gtest", "eigen", "range-v3", "gsl")
 end
