@@ -6,6 +6,7 @@
 
 namespace mpl = boost::mpl;
 
+
 int main(int arvc, char *argv[]) {
 
     BOOST_STATIC_ASSERT(
