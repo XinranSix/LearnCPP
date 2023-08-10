@@ -29,7 +29,6 @@ add_requires("gsl") --
 add_requires("cgal") -- 
 add_requires("libevent") -- 
 
-
 add_cxflags("/utf-8", "/std:c++20")
 
 for _, filepath in ipairs(os.files("./**.cpp")) do

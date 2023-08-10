@@ -82,6 +82,8 @@
         "complex": "cpp",
         "variant": "cpp",
         "xstring": "cpp",
-        "format": "cpp"
+        "format": "cpp",
+        "xmemory": "cpp",
+        "xutility": "cpp"
     }
 }
