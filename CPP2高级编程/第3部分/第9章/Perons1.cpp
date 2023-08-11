@@ -8,11 +8,11 @@ public:
     Person(std::string name, size_t age, size_t height);
     ~Person();
     Person(Person const &person);
-    Person(Person &&person);
+    Person(Person &&person) noexcept;
 
 public:
     Person &operator=(Person const &person);
-    Person &operator=(Person &&person);
+    Person &operator=(Person &&person) noexcept;
 
     [[nodiscard]] bool operator==(Person const &person);
     [[nodiscard]] auto operator<=>(Person const &person);
@@ -63,7 +63,7 @@ Person::Person(Person const &person)
       m_height { person.m_height } {
 }
 
-Person::Person(Person &&person)
+Person::Person(Person &&person) noexcept
     : m_name { std::move(person.m_name) },
       m_age { std::exchange(person.m_age, 0) },
       m_height { std::exchange(person.m_height, 0) } {
@@ -76,7 +76,7 @@ Person &Person::operator=(Person const &person) {
     return *this;
 }
 
-Person &Person::operator=(Person &&person) {
+Person &Person::operator=(Person &&person) noexcept {
     swap(person);
     return *this;
 }
