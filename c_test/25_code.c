@@ -24,20 +24,19 @@ void maskedKeywords(char *str, char *keyword) {
 
     int i = 0;
     while (i < len1 - len2 + 1) {
-        // int cnt = 0;
+
         int j = 0;
-        int cnt1 = 0;
-        while (cnt1 < len2) {
+        int cnt = 0;
+        while (cnt < len2) {
             if (str[i + j] == '*') {
-                // ++cnt;
-            } else if (str[i + j] != keyword[cnt1]) {
+            } else if (str[i + j] != keyword[cnt]) {
                 break;
             } else if (str[i + j] != '*') {
-                cnt1++;
+                cnt++;
             }
             j++;
         }
-        if (cnt1 == len2) {
+        if (cnt == len2) {
             for (int k = i; k < j + i; ++k) {
                 str[k] = '*';
             }
@@ -50,8 +49,14 @@ void maskedKeywords(char *str, char *keyword) {
 
 int main(int argc, char *argv[]) {
 
-    char str[] = "aaaabbbbbbbbabbaabbbbcc";
-    char keyword[] = "aabb";
+    // clang-format off
+    // char str[] = "qwqweabcaabcaababcdcdbcddbcddqweqweqweqweabcaabcaababcdcdbcddbcddeqqweabcaabcaababcdcdbcddbcddwegweggwewegegwegerherthabcaabcaababcdcdbcddbcddjrtfabcaabcaababcdcdbcddbcddgfgn";
+    // char keyword[] = "abcd";
+    // clang-format on
+
+    char str[] = "sssssssaabcbababccabccabc";
+    char keyword[] = "abc";
+
     maskedKeywords(str, keyword);
     puts(str);
 

@@ -1,8 +1,11 @@
+#include <functional>
 #include <iostream>
 #include <vector>
 #include <algorithm>
 
-void add(int i, int j) { std::cout << i + j << std::endl; }
+void add(int i, int j) {
+    std::cout << i + j << std::endl;
+}
 
 int main() {
     std::vector<int> v;
