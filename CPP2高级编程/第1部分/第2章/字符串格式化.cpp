@@ -75,81 +75,81 @@ TEST(字符串格式化, 格式说明符错误) {
     }
 }
 
-struct KeyValue {
-    KeyValue(std::string_view key, int value) : m_key{key}, m_value{value} {}
+// struct KeyValue {
+//     KeyValue(std::string_view key, int value) : m_key{key}, m_value{value} {}
 
-    std::string const &getKey() const { return m_key; }
-    int getValue() const { return m_value; }
+//     std::string const &getKey() const { return m_key; }
+//     int getValue() const { return m_value; }
 
-private:
-    std::string m_key;
-    int m_value;
-};
+// private:
+//     std::string m_key;
+//     int m_value;
+// };
 
-template<>
-class std::formatter<KeyValue> {
-public:
-    constexpr auto parse(auto &context) {
+// template<>
+// class std::formatter<KeyValue> {
+// public:
+//     constexpr auto parse(auto &context) {
 
-        auto iter{context.begin()};
-        const auto end{context.end()};
-        if (iter == end || *iter == '}') {
-            m_outputType = OutputType::KeyAndValue;
-            return iter;
-        }
+//         auto iter{context.begin()};
+//         const auto end{context.end()};
+//         if (iter == end || *iter == '}') {
+//             m_outputType = OutputType::KeyAndValue;
+//             return iter;
+//         }
 
-        switch (*iter) {
-        case 'a':
-            m_outputType = OutputType::KeyOnly;
-            break;
-        case 'b':
-            m_outputType = OutputType::ValueOnly;
-            break;
-        case 'c':
-            m_outputType = OutputType::KeyAndValue;
-            break;
-        default:
-            throw std::format_error{"Invalid KeyValue format specifier."};
-        }
+//         switch (*iter) {
+//         case 'a':
+//             m_outputType = OutputType::KeyOnly;
+//             break;
+//         case 'b':
+//             m_outputType = OutputType::ValueOnly;
+//             break;
+//         case 'c':
+//             m_outputType = OutputType::KeyAndValue;
+//             break;
+//         default:
+//             throw std::format_error{"Invalid KeyValue format specifier."};
+//         }
 
-        ++iter;
-        if (iter != end && *iter != '}') {
-            throw std::format_error{"Invalid KeyValue format specifier."};
-        }
-        return iter;
-    }
+//         ++iter;
+//         if (iter != end && *iter != '}') {
+//             throw std::format_error{"Invalid KeyValue format specifier."};
+//         }
+//         return iter;
+//     }
 
-    auto format(KeyValue const &kv, auto &context) {
-        switch (m_outputType) {
-            using enum OutputType;
-        case KeyOnly:
-            return format_to(context.out(), "{}", kv.getKey());
-        case ValueOnly:
-            return format_to(context.out(), "{}", kv.getValue());
-        default:
-            return format_to(context.out(), "{} - {}", kv.getKey(),
-                             kv.getValue());
-        }
-    }
+//     auto format(KeyValue const &kv, auto &context) {
+//         switch (m_outputType) {
+//             using enum OutputType;
+//         case KeyOnly:
+//             return format_to(context.out(), "{}", kv.getKey());
+//         case ValueOnly:
+//             return format_to(context.out(), "{}", kv.getValue());
+//         default:
+//             return format_to(context.out(), "{} - {}", kv.getKey(),
+//                              kv.getValue());
+//         }
+//     }
 
-private:
-    enum class OutputType { KeyOnly, ValueOnly, KeyAndValue };
+// private:
+//     enum class OutputType { KeyOnly, ValueOnly, KeyAndValue };
 
-    OutputType m_outputType{OutputType::KeyAndValue};
-};
+//     OutputType m_outputType{OutputType::KeyAndValue};
+// };
 
-TEST(字符串格式化, 支持自定义类型) {
-    KeyValue keyValue{"Key1", 11};
-    std::cout << std::format("{}", keyValue) << std::endl;
-    std::cout << std::format("{:a}", keyValue) << std::endl;
-    std::cout << std::format("{:b}", keyValue) << std::endl;
-    std::cout << std::format("{:c}", keyValue) << std::endl;
-    try {
-        // std::cout << std::format("{:cd}", keyValue) << std::endl;
-    } catch (const std::format_error &e) {
-        std::cout << e.what();
-    }
-}
+// TEST(字符串格式化, 支持自定义类型) {
+//     KeyValue keyValue{"Key1", 11};
+//     std::cout << std::format("{}", keyValue) << std::endl;
+//     std::cout << std::format("{:a}", keyValue) << std::endl;
+//     std::cout << std::format("{:b}", keyValue) << std::endl;
+//     std::cout << std::format("{:c}", keyValue) << std::endl;
+//     try {
+//         // std::cout << std::format("{:cd}", keyValue) << std::endl;
+//     } catch (const std::format_error &e) {
+//         std::cout << e.what();
+//     }
+// }
 
 int main(int argc, char *argv[]) {
     printf("Running main() from %s\n", __FILE__);

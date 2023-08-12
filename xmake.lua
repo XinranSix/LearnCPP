@@ -1,5 +1,5 @@
 add_rules("mode.debug", "mode.release")
-set_languages("c++23")
+set_languages("c++20")
 
 add_includedirs("include")
 
@@ -30,14 +30,11 @@ add_requires("ffmpeg") --
 add_requires("ncurses") -- 
 
 includes("c_test")
+includes("CPP2高级编程")
 
-for _, filepath in ipairs(os.files("./**.cpp")) do
-target(path.basename(filepath))
-    add_files(filepath)
-    set_rundir(path.directory(filepath))
-    add_packages("fmt", "boost", "openssl", "jsoncpp", "ftxui", "gtest", "eigen", "ncurses")
-    -- add_links("jsoncpp", "curl")
-    after_build(function (target)
-        os.cp("images", target:targetdir())
-    end)
-end
+-- for _, filepath in ipairs(os.files("./**.cpp")) do
+-- target(path.basename(filepath))
+--     add_files(filepath)
+--     set_rundir(path.directory(filepath))
+--     add_packages("fmt", "boost", "openssl", "jsoncpp", "ftxui", "gtest", "eigen", "ncurses")
+-- end

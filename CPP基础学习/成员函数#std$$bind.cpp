@@ -1,5 +1,6 @@
 #include <iostream>
 #include <algorithm>
+#include <functional>
 
 struct TestBind {
     void t(int n) {
@@ -8,7 +9,9 @@ struct TestBind {
         }
     }
 
-    void t() { std::cout << "重载的t\n"; };
+    void t() {
+        std::cout << "重载的t\n";
+    };
 };
 
 int main(int arvc, char *argv[]) {

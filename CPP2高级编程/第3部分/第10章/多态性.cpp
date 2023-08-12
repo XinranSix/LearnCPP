@@ -4,7 +4,7 @@
 #include <memory>
 #include <vector>
 #include "professional_cpp/spreadsheetCell1.hpp"
-#include "professional_cpp/stringSpreadsheetCell1.hpp"
+#include "professional_cpp/stringspreadsheetCell1.hpp"
 
 TEST(多态性, 父类指针指向) {
     std::vector<std::unique_ptr<SpreadsheetCell>> cellArray;

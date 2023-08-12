@@ -74,8 +74,6 @@
         "stddef.h": "c",
         "stdarg.h": "c",
         "inttypes.h": "c",
-        "C语言面向对象.C": "cpp",
-        "C语言面向对象#Anima类.C": "cpp",
         "ranges": "cpp",
         "optional": "cpp",
         "valarray": "cpp",
@@ -83,6 +81,10 @@
         "variant": "cpp",
         "*.mpp": "cpp",
         "unistd.h": "c",
-        "ncurses.h": "c"
+        "ncurses.h": "c",
+        "format": "cpp",
+        "charconv": "cpp",
+        "iomanip": "cpp",
+        "span": "cpp"
     }
 }

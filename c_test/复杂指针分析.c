@@ -2,6 +2,7 @@
 
 int main(int arvc, char *argv[]) {
 
+#if 0
     int *p1[10]; // 指针数组，长度为 10，每个元素为 int *
     int(*p2)[10]; // 数组指针，指向一个长度为 10 的 int 类型的数组
     int *p3(int); // 函数，返回值为 int * 类型，参数为 int 类型
@@ -65,6 +66,6 @@ int main(int arvc, char *argv[]) {
     typedef int (*T4)(int *, int);
     int fun4(int *, T4);
     f4 = fun4;
-
+#endif
     return 0;
 }

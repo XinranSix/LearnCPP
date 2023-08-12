@@ -47,6 +47,8 @@ namespace HR {
             m_initials = initials;
         }
 
+        virtual std::string toString() const = 0;
+
     private:
         std::string m_firstName;
         std::string m_lastName;
@@ -84,6 +86,12 @@ namespace HR {
             m_employeeID = employeeId;
         }
 
+        std::string toString() const override {
+            return std::format(
+                "Employee:\nFirstName: {}\nLastName: {}\nInitials: {}\nEmployeeId: {}",
+                getFirstName(), getLastName(), getInitials(), getEmployeeId());
+        }
+
     private:
         size_t m_employeeID {};
     };
@@ -93,6 +101,12 @@ namespace HR {
     class Manager : public Employee {
     public:
         using Employee::Employee;
+
+        std::string toString() const override {
+            return std::format(
+                "Manager:\nFirstName: {}\nLastName: {}\nInitials: {}\nEmployeeId: {}",
+                getFirstName(), getLastName(), getInitials(), getEmployeeId());
+        }
     };
 }; // namespace HR
 
@@ -100,6 +114,12 @@ namespace HR {
     class Director : public Employee {
     public:
         using Employee::Employee;
+
+        std::string toString() const override {
+            return std::format(
+                "Director:\nFirstName: {}\nLastName: {}\nInitials: {}\nEmployeeId: {}",
+                getFirstName(), getLastName(), getInitials(), getEmployeeId());
+        }
     };
 }; // namespace HR
 
