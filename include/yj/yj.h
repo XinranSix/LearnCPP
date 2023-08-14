@@ -7,6 +7,7 @@
 
 #include "type_traits.hpp"
 #include "tools/output_container.h"
+#include "tools/cpp_type_name.hpp"
 
 #include <array>
 #include <iostream>

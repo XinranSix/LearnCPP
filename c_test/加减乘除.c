@@ -15,15 +15,25 @@ int main(int argc, char *argv[]) {
     return 0;
 }
 
-int add(int a, int b) { return a + b; }
+int add(int a, int b) {
+    return a + b;
+}
 
-int sub(int a, int b) { return a - b; }
+int sub(int a, int b) {
+    return a - b;
+}
 
-int mul(int a, int b) { return a * b; }
+int mul(int a, int b) {
+    return a * b;
+}
 
-int div(int a, int b) { return a / b; }
+int div(int a, int b) {
+    return a / b;
+}
 
-int cal(int a, int b, int (*funPtr)(int, int)) { return funPtr(a, b); }
+int cal(int a, int b, int (*funPtr)(int, int)) {
+    return funPtr(a, b);
+}
 
 void menu() {
 
