@@ -30,7 +30,7 @@ add_requires("ffmpeg") --
 add_requires("ncurses") -- 
 
 includes("c_test")
-includes("CPP2高级编程")
+includes("CPP20高级编程")
 
 -- for _, filepath in ipairs(os.files("./**.cpp")) do
 -- target(path.basename(filepath))
