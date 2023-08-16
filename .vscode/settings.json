@@ -92,6 +92,7 @@
         "codecvt": "cpp",
         "source_location": "cpp",
         "set": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "unordered_set": "cpp"
     }
 }
