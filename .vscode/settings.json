@@ -90,6 +90,8 @@
         "span": "cpp",
         "filesystem": "cpp",
         "codecvt": "cpp",
-        "source_location": "cpp"
+        "source_location": "cpp",
+        "set": "cpp",
+        "forward_list": "cpp"
     }
 }
