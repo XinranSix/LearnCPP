@@ -21,16 +21,17 @@ add_requires("abseil") -- 补充标准库没有的常用功能
 add_requires("benchmark") -- 谷歌性能评估框架
 add_requires("glfw") -- glfw OpenGL 窗口和上下文管理
 add_requires("libigl") -- 各种图形学算法大合集
-add_requires("opencv") -- opencv
+-- add_requires("opencv") -- opencv
 add_requires("rttr") -- 反射库
 add_requires("matplotplusplus") -- 
 add_requires("gsl") -- 
 add_requires("cgal") -- 
 add_requires("ffmpeg") -- 
 add_requires("ncurses") -- 
+add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
 
 includes("c_test")
-includes("CPP20高级编程")
+includes("学习过程中写的代码")
 
 -- for _, filepath in ipairs(os.files("./**.cpp")) do
 -- target(path.basename(filepath))
