@@ -1,37 +1,38 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct stu {
-    char name[20];
-    size_t age;
-} stu_t, *stu_p;
-
 int main(int argc, char *argv[]) {
 
-    stu_p sp;
-    size_t size;
-    printf("请输入学生个数：");
-    scanf("%zu", &size);
+    FILE *fp = NULL;
 
-    sp = calloc(size, sizeof(stu_t));
+    char *buff = NULL;
+    long size = 0;
 
-    if (sp == NULL) {
-        perror("malloc()");
+    fp = fopen("./27_code.c", "r");
+    if (fp == NULL) {
+        perror("fopen()");
         exit(1);
     }
 
-    for (size_t i = 0; i < size; ++i) {
-        printf("请输入第 %zu 个学生的信息：", i + 1);
-        scanf("%s %zu", sp[i].name, &(sp[i].age));
+    fseek(fp, 0, SEEK_END);
+    size = ftell(fp);
+    fseek(fp, 0, SEEK_SET);
+
+    buff = (char *)malloc(size + 1);
+    if (buff == NULL) {
+        perror("malloc()");
+        fclose(fp);
+        exit(1);
     }
 
-    for (size_t i = 0; i < size; ++i) {
-        printf("名字：%s，年龄：%zu\n", sp[i].name, sp[i].age);
-    }
+    fread(buff, size, 1, fp);
+    buff[size] = '\0';
+    fputs(buff, stdout);
 
-    if (sp != NULL) {
-        free(sp);
-        sp = NULL;
+    fclose(fp);
+    if (buff != NULL) {
+        free(buff);
+        buff = NULL;
     }
 
     return 0;

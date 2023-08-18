@@ -29,9 +29,14 @@ TEST(编译器有理数, 有理数的运算) {
     std::intmax_t den { r1::den };
     std::cout << std::format("1) r1 = {}/{}", num, den) << std::endl;
 
-
     using r2 = std::ratio<1, 30>;
-    
+    std::cout << std::format("2) r2 = {}/{}", r2::num, r2::den) << std::endl;
+
+    using result = std::ratio_add<r1, r2>::type;
+    std::cout << std::format("3) sum = {}/{}", result::num, result::den) << std::endl;
+
+    using res = std::ratio_less<r2, r1>;
+    std::cout << std::format("4) r2 < r1: {}", res::value) << std::endl;
 }
 
 int main(int argc, char *argv[]) {

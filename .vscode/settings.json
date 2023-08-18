@@ -94,6 +94,7 @@
         "set": "cpp",
         "forward_list": "cpp",
         "unordered_set": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "any": "cpp"
     }
 }
