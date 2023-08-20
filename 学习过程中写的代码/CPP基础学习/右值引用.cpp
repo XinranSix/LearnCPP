@@ -1,16 +1,31 @@
 #include <iostream>
-#include <cassert>
+#include <functional>
 
-int main(int arvc, char *argv[]) {
+void func(int i, std::function<void(int)> f) {
+    f(i);
+}
 
-    int var = 42;
-    int &ref = var;
-    ref = 99;
-    assert(var == 99);
+void f1(int i) {
+    std::cout << i << std::endl;
+}
+/*
+函数指针
+函数对象
+lambda
+std::function
+*/
 
-    int &&i = 42;
-    int j = 42;
-    // int &&k = j;
+int main(int argc, char *argv[]) {
+
+    // lambda
+    auto t1 = [](int i) -> double {
+        std::cout << i << std::endl;
+        return 1;
+    };
+
+    int x = 10;
+
+    func(1, [x](int i) { std::cout << x + i << std::endl; });
 
     return 0;
 }

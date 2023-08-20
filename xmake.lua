@@ -26,7 +26,7 @@ add_requires("rttr") -- 反射库
 add_requires("matplotplusplus") -- 
 add_requires("gsl") -- 
 add_requires("cgal") -- 
-add_requires("ffmpeg") -- 
+add_requires("ffmpeg") -- 音视频基础操作的库
 add_requires("ncurses") -- 
 add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
 

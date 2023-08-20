@@ -9,10 +9,23 @@
 #include <sstream>
 #include <string>
 #include <string_view>
+#include <utility>
 #include <vector>
 #include "graph_node.hpp"
 
 namespace yt {
+
+    template <typename DirectedGraph>
+    class const_directed_graph_iterator;
+
+    template <typename DirectedGraph>
+    class directed_graph_iterator;
+
+    template <typename DirectedGraph>
+    class adjacent_nodes_iterator;
+
+    template <typename DirectedGraph>
+    class const_adjacent_nodes_iterator;
 
     template <typename T>
     class directed_graph {
@@ -25,15 +38,71 @@ namespace yt {
         using difference_type = ptrdiff_t;
 
     public:
+        // 迭代器别名
+        using iterator = const_directed_graph_iterator<directed_graph>;
+        using const_iterator = const_directed_graph_iterator<directed_graph>;
+        // 反向迭代器别名
+        using reverse_iterator = std::reverse_iterator<iterator>;
+        using const_reverse_iterator = std::reverse_iterator<const_iterator>;
+
+        // 迭代器方法
+        iterator begin() noexcept;
+        iterator end() noexcept;
+        const_iterator begin() const noexcept;
+        const_iterator end() const noexcept;
+        const_iterator cbegin() const noexcept;
+        const_iterator cend() const noexcept;
+
+        // 反向迭代器方法
+        reverse_iterator rbegin() noexcept;
+        reverse_iterator rend() noexcept;
+        const_reverse_iterator rbegin() const noexcept;
+        const_reverse_iterator rend() const noexcept;
+        const_reverse_iterator crbegin() const noexcept;
+        const_reverse_iterator crend() const noexcept;
+
+        // 迭代邻接节点
+        // 类型别名
+        using iterator_adjacent_nodes = adjacent_nodes_iterator<directed_graph>;
+        using const_iterator_adjacent_nodes = const_adjacent_nodes_iterator<directed_graph>;
+        using reverse_iterator_adjacent_nodes = std::reverse_iterator<iterator_adjacent_nodes>;
+        using const_reverse_iterator_adjacent_nodes =
+            std::reverse_iterator<const_iterator_adjacent_nodes>;
+
+        // Return iterators to the list of adjacent nodes for a given.
+        // Return a default consturcted one as end iterator if value is not found.
+        iterator_adjacent_nodes begin(T const &node_value) noexcept;
+        iterator_adjacent_nodes end(T const &node_value) noexcept;
+        const_iterator_adjacent_nodes begin(T const &node_value) const noexcept;
+        const_iterator_adjacent_nodes end(T const &node_value) const noexcept;
+        const_iterator_adjacent_nodes cbegin(T const &node_value) const noexcept;
+        const_iterator_adjacent_nodes cend(T const &node_value) const noexcept;
+
+        // Return reverse iterators to the list of adjacent nodes of a given node.
+        // Return a defalut constructed one as end iterator if value is not found.
+        reverse_iterator_adjacent_nodes rbegin(T const &node_value) noexcept;
+        reverse_iterator_adjacent_nodes rend(T const &node_value) noexcept;
+        const_reverse_iterator_adjacent_nodes rbegin(T const &node_value) const noexcept;
+        const_reverse_iterator_adjacent_nodes rend(T const &node_value) const noexcept;
+        const_reverse_iterator_adjacent_nodes crbegin(T const &node_value) const noexcept;
+        const_reverse_iterator_adjacent_nodes crend(T const &node_value) const noexcept;
+
+    public:
         // 插入节点的值要求在原图中不存在
         // 插入成功返回 true
         // 如果原图中存在值为 node_value 的节点
         // 返回 false
-        bool insert(T const &node_value);
-        bool insert(T &&node_value);
+        std::pair<iterator, bool> insert(T const &node_value);
+        std::pair<iterator, bool> insert(T &&node_value);
+        iterator insert(const_iterator hint, T const &node_value);
+        iterator insert(const_iterator hint, T &&node_value);
+        template <typename Iter>
+        void insert(Iter first, Iter last);
 
         // Returns true if the given node_value was erased, false otherwise.
-        bool erase(T const &node_value);
+        // bool erase(T const &node_value);
+        iterator erase(const_iterator pos);
+        iterator erase(const_iterator first, const_iterator last);
 
         // Returns true if the edge was successfully created, false otherwise.
         bool insert_edge(T const &from_node_value, T const &to_node_value);
@@ -59,11 +128,17 @@ namespace yt {
         void swap(directed_graph &other_graph) noexcept;
 
         // Returns the number of nodes in the graph.
-        [[nodiscard]] size_t size() const noexcept;
+        [[nodiscard]] size_type size() const noexcept;
+        [[nodiscard]] size_type max_size() const noexcept;
+        [[nodiscard]] bool empty() const noexcept;
 
         // Returns a set with the adjacent nodes of a given node.
         // If the given node does not exist, an empty set is returned.
         [[nodiscard]] std::set<T> get_adjacent_nodes_values(T const &node_value) const;
+
+        // at 方法
+        reference at(size_type index);
+        const_reference at(size_type index) const;
 
     private:
         using nodes_container_type = std::vector<graph_node<T>>;
@@ -82,6 +157,10 @@ namespace yt {
 
         std::set<T>
         get_adjacent_nodes_values(typename graph_node<T>::adjacency_list_type const &indices) const;
+
+    private:
+        friend class const_directed_graph_iterator<directed_graph>;
+        friend class directed_graph_iterator<directed_graph>;
     };
 
     /* ---------------------------------------------------------------------- */
@@ -142,19 +221,39 @@ namespace yt {
     /* ------------------------------------------------------------------ */
     // 插入节点
     template <typename T>
-    bool directed_graph<T>::insert(T const &node_value) {
+    std::pair<typename directed_graph<T>::iterator, bool>
+    directed_graph<T>::insert(T const &node_value) {
         T copy { node_value };
         return insert(std::move(copy));
     }
 
     template <typename T>
-    bool directed_graph<T>::insert(T &&node_value) {
+    std::pair<typename directed_graph<T>::iterator, bool>
+    directed_graph<T>::insert(T &&node_value) {
         auto iter { findNode(node_value) };
         if (iter != std::end(m_nodes)) {
-            return false;
+            return { iterator { iter, this }, false };
         }
         m_nodes.emplace_back(this, std::move(node_value));
-        return true;
+        return { iterator { --std::end(m_nodes), this }, true };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::iterator directed_graph<T>::insert(const_iterator hint,
+                                                                   T const &node_value) {
+        return insert(node_value).first;
+    }
+
+    template <typename T>
+    typename directed_graph<T>::iterator directed_graph<T>::insert(const_iterator hint,
+                                                                   T &&node_value) {
+        return insert(std::move(node_value)).first;
+    }
+
+    template <typename T>
+    template <typename Iter>
+    void directed_graph<T>::insert(Iter first, Iter last) {
+        std::copy(first, last, std::insert_iterator { *this, begin() });
     }
 
     /* ---------------------------------------------------------------------- */
@@ -173,15 +272,35 @@ namespace yt {
 
     /* ---------------------------------------------------------------------- */
     // 删除节点
+    // template <typename T>
+    // bool directed_graph<T>::erase(T const &node_value) {
+    //     auto iter { findNode(node_value) };
+    //     if (iter == std::end(m_nodes)) {
+    //         return false;
+    //     }
+    //     remove_all_links_to(iter);
+    //     m_nodes.erase(iter);
+    //     return true;
+    // }
+
     template <typename T>
-    bool directed_graph<T>::erase(T const &node_value) {
-        auto iter { findNode(node_value) };
-        if (iter == std::end(m_nodes)) {
-            return false;
+    typename directed_graph<T>::iterator directed_graph<T>::erase(const_iterator pos) {
+        if (pos.m_nodeIterator == std::end(m_nodes)) {
+            return iterator { std::end(m_nodes), this };
         }
-        remove_all_links_to(iter);
-        m_nodes.erase(iter);
-        return true;
+        remove_all_links_to(pos.m_nodeIterator);
+        return iterator { m_nodes.erase(pos.m_nodeIterator), this };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::iterator directed_graph<T>::erase(const_iterator first,
+                                                                  const_iterator last) {
+        for (auto iter { first }; iter != last; ++iter) {
+            if (iter.m_nodeIterator != std::end(m_nodes)) {
+                remove_all_links_to(iter.m_nodeIterator);
+            }
+        }
+        return iterator { m_nodes.erase(first.m_nodeIterator, last.m_nodeIterator), this };
     }
 
     /* ---------------------------------------------------------------------- */
@@ -270,9 +389,147 @@ namespace yt {
     /* ---------------------------------------------------------------------- */
     // 查询图的大小
     template <typename T>
-    size_t directed_graph<T>::size() const noexcept {
+    typename directed_graph<T>::size_type directed_graph<T>::size() const noexcept {
         return m_nodes.size();
     }
+
+    template <typename T>
+    typename directed_graph<T>::size_type directed_graph<T>::max_size() const noexcept {
+        return m_nodes.max_size();
+    }
+
+    template <typename T>
+    bool directed_graph<T>::empty() const noexcept {
+        return m_nodes.empty();
+    }
+
+    /* ---------------------------------------------------------------------- */
+    template <typename T>
+    typename directed_graph<T>::reference directed_graph<T>::at(size_type index) {
+        return m_nodes.at(index).value();
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_reference directed_graph<T>::at(size_type index) const {
+        return m_nodes.at(index).value();
+    }
+
+    /* ---------------------------------------------------------------------- */
+    // 迭代器方法
+    template <typename T>
+    typename directed_graph<T>::iterator directed_graph<T>::begin() noexcept {
+        return iterator { std::begin(m_nodes), this };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::iterator directed_graph<T>::end() noexcept {
+        return iterator { std::end(m_nodes), this };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator directed_graph<T>::begin() const noexcept {
+        return const_cast<directed_graph *>(this)->begin();
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator directed_graph<T>::end() const noexcept {
+        return const_cast<directed_graph *>(this)->end();
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator directed_graph<T>::cbegin() const noexcept {
+        return begin();
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator directed_graph<T>::cend() const noexcept {
+        return end();
+    }
+
+    /* ---------------------------------------------------------------------- */
+    // 反向迭代器方法
+    template <typename T>
+    typename directed_graph<T>::reverse_iterator directed_graph<T>::rbegin() noexcept {
+        return reverse_iterator { end() };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::reverse_iterator directed_graph<T>::rend() noexcept {
+        return reverse_iterator { begin() };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator directed_graph<T>::rbegin() const noexcept {
+        return const_reverse_iterator { end() };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator directed_graph<T>::rend() const noexcept {
+        return const_reverse_iterator { begin() };
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator directed_graph<T>::crbegin() const noexcept {
+        return rbegin();
+    }
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator directed_graph<T>::crend() const noexcept {
+        return rend();
+    }
+
+    /* ---------------------------------------------------------------------- */
+    // 相邻节点迭代器
+
+    template <typename T>
+    typename directed_graph<T>::iterator_adjacent_nodes
+    directed_graph<T>::begin(T const &node_value) noexcept {
+      
+    }
+
+    template <typename T>
+    typename directed_graph<T>::iterator_adjacent_nodes
+    directed_graph<T>::end(T const &node_value) noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator_adjacent_nodes
+    directed_graph<T>::begin(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator_adjacent_nodes
+    directed_graph<T>::end(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator_adjacent_nodes
+    directed_graph<T>::cbegin(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_iterator_adjacent_nodes
+    directed_graph<T>::cend(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::reverse_iterator_adjacent_nodes
+    directed_graph<T>::rbegin(T const &node_value) noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::reverse_iterator_adjacent_nodes
+    directed_graph<T>::rend(T const &node_value) noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator_adjacent_nodes
+    directed_graph<T>::rbegin(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator_adjacent_nodes
+    directed_graph<T>::rend(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator_adjacent_nodes
+    directed_graph<T>::crbegin(T const &node_value) const noexcept {}
+
+    template <typename T>
+    typename directed_graph<T>::const_reverse_iterator_adjacent_nodes
+    directed_graph<T>::crend(T const &node_value) const noexcept {}
 
     /* ---------------------------------------------------------------------- */
     // 打印图

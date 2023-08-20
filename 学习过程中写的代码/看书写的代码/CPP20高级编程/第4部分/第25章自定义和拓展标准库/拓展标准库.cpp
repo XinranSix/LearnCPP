@@ -13,6 +13,8 @@
 #include <set>
 #include "yj/data_struct/directed_graph.hpp"
 #include "yj/data_struct/graph_node.hpp"
+#include "yj/data_struct/const_directed_graph_iterator.hpp"
+#include "yj/data_struct/directed_graph_iterator.hpp"
 
 template <typename InputIterator, typename OutputIterator, typename Predicate>
 OutputIterator find_all(InputIterator first, InputIterator last, OutputIterator dest,
@@ -57,16 +59,55 @@ TEST(拓展标准库, 基本的有向图) {
     graph.insert_edge(22, 55);
     graph.insert_edge(33, 44);
     graph.insert_edge(44, 55);
-    wofs << to_dot(graph, L"Graph1");
+    std::wcout << to_dot(graph, L"Graph1");
 
-    graph.erase_edge(22, 44);
-    graph.erase(44);
+    // graph.erase_edge(22, 44);
+    // graph.erase(44);
     // wofs << to_dot(graph, L"Graph2");
 
-    std::cout << "Size: " << graph.size() << std::endl;
-    wofs.close();
+    // std::cout << "Size: " << graph.size() << std::endl;
+    // wofs.close();
 
-    system("dot -png test.dot -o test.png");
+    // system("dot -Tpng test.dot -o test.png");
+
+    /* ---------------------------------------------------------------------- */
+
+    auto [iter22, inserted] { graph.insert(22) };
+    if (!inserted) {
+        std::cout << "Duplicate element.\n";
+    }
+
+    for (auto iter { graph.begin() }; iter != graph.end(); ++iter) {
+        std::cout << *iter << " ";
+    }
+    std::cout << std::endl;
+
+    for (auto iter { std::cbegin(graph) }; iter != std::cend(graph); ++iter) {
+        std::cout << *iter << " ";
+    }
+    std::cout << std::endl;
+
+    for (auto &node : graph) {
+        std::cout << node << " ";
+    }
+    std::cout << std::endl;
+
+    auto result { std::find(std::begin(graph), std::end(graph), 22) };
+    if (result != std::end(graph)) {
+        std::cout << "Node 22 found." << std::endl;
+    } else {
+        std::cout << "Node 22 NOT found." << std::endl;
+    }
+
+    auto count { std::count_if(std::begin(graph), std::end(graph),
+                               [](auto const &node) { return node > 22; }) };
+
+    graph.erase(std::find(std::begin(graph), std::end(graph), 44));
+
+    for (auto iter { graph.rbegin() }; iter != graph.rend(); ++iter) {
+        std::cout << *iter << " ";
+    }
+    std::cout << std::endl;
 }
 
 int main(int argc, char *argv[]) {
