@@ -8,7 +8,6 @@ add_requires("sqlite3") -- sqlite3
 add_requires("ftxui") -- ftxui 库
 add_requires("gtest") -- google test
 add_requires("boost", {configs = {all = true}}) -- boost 库
-add_requires("tbox") -- c 语言的一个工具库
 add_requires("eigen") -- 线性代数库
 add_requires("range-v3")  -- 范围库
 add_requires("stb") -- stb 
@@ -30,8 +29,8 @@ add_requires("ffmpeg") -- 音视频基础操作的库
 add_requires("ncurses") -- 
 add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
 
-includes("c_test")
 includes("学习过程中写的代码")
+includes("代码片段")
 
 -- for _, filepath in ipairs(os.files("./**.cpp")) do
 -- target(path.basename(filepath))
