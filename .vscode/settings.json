@@ -96,6 +96,8 @@
         "unordered_set": "cpp",
         "regex": "cpp",
         "any": "cpp",
-        "syncstream": "cpp"
+        "syncstream": "cpp",
+        "barrier": "cpp",
+        "latch": "cpp"
     }
 }
