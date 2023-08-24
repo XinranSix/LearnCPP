@@ -4,32 +4,25 @@
 
 class SigleTon {
 public:
-    ~SigleTon() {
-        delete single;
+    static SigleTon &instance() {
+        static SigleTon instance;
+        return instance;
     }
 
-private:
-    SigleTon() {}
+    SigleTon(SigleTon const &) = delete;
+    SigleTon &operator=(SigleTon const &) = delete;
 
-    static SigleTon *const single;
-};
-
-SigleTon *const SigleTon::single = new SigleTon;
-
-class SigleTon1 {
-public:
-    std::shared_ptr<SigleTon1> getInstance() {
-        return single;
-    }
+    SigleTon(SigleTon &&) = delete;
+    SigleTon &operator=(SigleTon &&) = delete;
 
 private:
-    SigleTon1() {}
-
-    static std::shared_ptr<SigleTon1> const single;
+    SigleTon() = default;
+    ~SigleTon() = default;
 };
-
-std::shared_ptr<SigleTon1> const SigleTon1::single { new SigleTon1 };
 
 int main(int argc, char *argv[]) {
+
+    SigleTon &t = SigleTon::instance();
+
     return 0;
 }
