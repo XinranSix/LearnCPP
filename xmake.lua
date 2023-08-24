@@ -8,6 +8,7 @@ add_requires("sqlite3") -- sqlite3
 add_requires("ftxui") -- ftxui 库
 add_requires("gtest") -- google test
 add_requires("boost", {configs = {all = true}}) -- boost 库
+-- add_requires("phoenix", {configs = {all = true}}) -- boost 库
 add_requires("eigen") -- 线性代数库
 add_requires("range-v3")  -- 范围库
 add_requires("stb") -- stb 

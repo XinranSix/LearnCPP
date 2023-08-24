@@ -1,23 +1,25 @@
 #include <algorithm>
+#include <bits/ranges_algo.h>
 #include <fstream>
 #include <iostream>
 #include <iterator>
 #include <string>
 #include <type_traits>
 #include <vector>
+#include <ranges>
 
-int count_lines(std::string const &filename) {
-    std::ifstream in { filename };
+std::ifstream open_file(std::string const &filename) {
+    return std::ifstream { filename };
+}
+
+int count_lines(std::ifstream in) {
     return std::count(std::istreambuf_iterator<char> { in }, std::istreambuf_iterator<char> {},
                       '\n');
 }
 
-std::vector<int> count_lines_in_files(std::vector<std::string> const &files) {
-    std::vector<int> results;
-    for (auto const &file : files) {
-        results.emplace_back(count_lines(file));
-    }
-    return results;
+auto count_lines_in_files(std::vector<std::string> const &files) {
+    return files | std::ranges::views::transform(open_file) |
+           std::ranges::views::transform(count_lines);
 }
 
 int main(int argc, char *argv[]) {
@@ -28,13 +30,11 @@ int main(int argc, char *argv[]) {
         "./使用stdtransform把文件映射为它的行数.cpp"s,
         "./使用stdcount统计换行符数目.cpp"s,
         "./使用range进行转换.cpp"s,
-
     };
 
     auto results { count_lines_in_files(files) };
 
-    std::for_each(cbegin(results), cend(results),
-                  [](auto const &line) { std::cout << line << std::endl; });
+    std::ranges::for_each(results, [](auto line) { std::cout << line << std::endl; });
 
     return 0;
 }
