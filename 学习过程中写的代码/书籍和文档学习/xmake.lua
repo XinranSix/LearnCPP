@@ -1,2 +1,6 @@
 includes("CPP20高级编程")
 includes("CPP函数式编程")
+includes("RangeV3")
+includes("TheBoostCPPLibraries")
+includes("CPP并发编程实战")
+includes("CPPTemplates")
