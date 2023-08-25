@@ -8,11 +8,6 @@
 #include <vector>
 #include <fmt/core.h>
 
-struct X {
-    void f() {}
-    int i;
-};
-
 int main(int argc, char *argv[]) {
 
     std::vector<int> numbers1 { 1, 2, 3, 4 };
