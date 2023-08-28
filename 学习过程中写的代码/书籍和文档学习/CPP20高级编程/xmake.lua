@@ -1,3 +1,5 @@
+add_includedirs("./include")
+
 for _, filepath in ipairs(os.files("./**.cpp")) do
 target('CPP20高级编程_' .. path.basename(filepath))
     add_files(filepath)

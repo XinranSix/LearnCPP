@@ -17,6 +17,6 @@ bool list_contains(int value_to_find) {
 }
 
 int main(int argc, char *argv[]) {
-    
+
     return 0;
 }

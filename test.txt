@@ -1,0 +1,3 @@
+The package names:
+[0m[1;38;5;1;1merror: [0mcannot import module: package.manager.boost.search_package, not found![0m
+[0m[1;38;5;1;1merror: [0mexecv(xmake require --search boost::di) failed(255)[0m

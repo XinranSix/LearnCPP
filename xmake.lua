@@ -21,11 +21,14 @@ add_requires("glfw") -- glfw OpenGL 窗口和上下文管理
 add_requires("libigl") -- 各种图形学算法大合集
 add_requires("rttr") -- 反射库
 add_requires("matplotplusplus") -- 
-add_requires("gsl") -- 
+add_requires("gsl") -- ·
 add_requires("cgal") -- 
 add_requires("ffmpeg") -- 音视频基础操作的库
 add_requires("ncurses") -- 
 add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
+add_requires("glog") -- 
+add_requires("poco") -- 
+add_requires("boost_ut") -- 
 
 includes("学习过程中写的代码")
 includes("代码片段")
