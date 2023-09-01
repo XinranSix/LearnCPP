@@ -5,4 +5,6 @@ includes("RangeV3")
 includes("TheBoostCPPLibraries")
 includes("CPP并发编程实战")
 includes("CPPTemplates")
+includes("Linux多线程服务端编程使用muduoCPP网络库")
+includes("Linux高性能服务器编程")
 
