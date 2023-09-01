@@ -7,4 +7,5 @@ includes("CPP并发编程实战")
 includes("CPPTemplates")
 includes("Linux多线程服务端编程使用muduoCPP网络库")
 includes("Linux高性能服务器编程")
+includes("Boost程序库完全开发指南深入CPP准标准库")
 
