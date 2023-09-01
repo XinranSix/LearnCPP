@@ -66,10 +66,15 @@ add_requires("poco") --
 add_requires("gsl") -- C数学运算库
 add_requires("gnu-gsl") -- The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.
 
--- 其他库
-add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
-add_requires("libevent") -- 
+-- 网络库
+add_requires("cpprest", {system = true}) -- 微软的网络库
 
 -- GUI 和 TUI
 add_requires("ncurses") -- 一个不支持 window 的 TUI 库
 -- add_requires("wxwidgets") -- Cross-Platform C++ GUI Library
+
+-- 其他库
+add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
+add_requires("libevent") -- 
+
+

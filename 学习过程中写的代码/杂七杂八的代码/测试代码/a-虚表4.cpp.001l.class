@@ -1,0 +1,31 @@
+Class A
+   size=4 align=4
+   base size=4 base align=4
+A (0x0x7fa871de7420) 0
+
+Class B
+   size=4 align=4
+   base size=4 base align=4
+B (0x0x7fa871de7480) 0
+
+Vtable for C
+C::_ZTV1C: 4 entries
+0     16
+8     12
+16    (int (*)(...))0
+24    (int (*)(...))(& _ZTI1C)
+
+VTT for C
+C::_ZTT1C: 1 entries
+0     ((& C::_ZTV1C) + 32)
+
+Class C
+   size=24 align=8
+   base size=12 base align=8
+C (0x0x7fa871df9000) 0
+    vptridx=0 vptr=((& C::_ZTV1C) + 32)
+A (0x0x7fa871de74e0) 12 virtual
+      vbaseoffset=-24
+B (0x0x7fa871de7540) 16 virtual
+      vbaseoffset=-32
+

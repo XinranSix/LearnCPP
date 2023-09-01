@@ -84,7 +84,12 @@
         "variant": "cpp",
         "format": "cpp",
         "shared_mutex": "cpp",
-        "future": "cpp"
+        "future": "cpp",
+        "csignal": "cpp",
+        "typeindex": "cpp",
+        "strstream": "cpp",
+        "cfenv": "cpp",
+        "*.ipp": "cpp"
     },
     //todo-tree 标签配置  标签兼容大小写字母(很好的功能!!!)
     "todo-tree.regex.regex": "((%|#|//|<!--|^\\s*\\*)\\s*($TAGS)|^\\s*- \\[ \\])",

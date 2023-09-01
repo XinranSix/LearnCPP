@@ -13,16 +13,17 @@ class MyArr {
     using size_type = size_t;
     using value_type = T;
 
-    MyArr(size_type size = 0, size_type capacity = 0)
-        : m_size { size }, m_capacity { std::max(size, capacity) }, arr { new T[m_capacity] } {}
+    MyArr(size_type capacity = 0)
+        : m_size { capacity }, m_capacity { capacity },
+          arr { new T[m_capacity] } {}
 
-    MyArr(std::initializer_list<T> values) : MyArr { values.size(), values.size() } {
+    MyArr(std::initializer_list<T> values) : MyArr { values.size() } {
         for (size_t i { 0 }; i < m_capacity; ++i) {
             arr[i] = values[i];
         }
     }
 
-    MyArr(MyArr<T> const &other) : MyArr { other.m_size, other.m_capacity } {
+    MyArr(MyArr<T> const &other) : MyArr { other.m_size } {
         for (size_t i { 0 }; i < m_capacity; ++i) {
             arr[i] = other.arr[i];
         }
@@ -34,11 +35,9 @@ class MyArr {
         return *this;
     }
 
-    MyArr(MyArr<T> const &&other) {
-        swap(other, *this);
-    }
+    MyArr(MyArr<T> const &&other) noexcept { swap(other, *this); }
 
-    MyArr<T> &operator=(MyArr<T> const &&other) {
+    MyArr<T> &operator=(MyArr<T> const &&other) noexcept {
         swap(*this, other);
         return *this;
     }
@@ -58,13 +57,10 @@ private:
     size_type m_size {};
 
     void swap(T const &other) noexcept {
-        std::move(other.arr, arr);
-        std::move(other.m_capacity, m_capacity);
-        std::move(other.m_size, m_size);
+        arr = std::exchange(other.arr, nullptr);
+        m_capacity = std::exchange(other.m_capacity, 0);
+        m_size = std::exchange(other.m_size, 0);
     }
 };
 
-int main(int argc, char *argv[]) {
-
-    return 0;
-}
+int main(int argc, char *argv[]) { return 0; }

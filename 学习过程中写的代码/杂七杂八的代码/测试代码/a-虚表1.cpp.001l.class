@@ -1,0 +1,21 @@
+Class A
+   size=4 align=4
+   base size=4 base align=4
+A (0x0x7fba40523420) 0
+
+Class B
+   size=4 align=4
+   base size=4 base align=4
+B (0x0x7fba40523480) 0
+
+Class C
+   size=12 align=4
+   base size=12 base align=4
+C (0x0x7fba40535000) 0
+A (0x0x7fba405234e0) 0
+B (0x0x7fba40523540) 4
+
+
+
+
+
