@@ -2,6 +2,7 @@ add_rules("mode.debug", "mode.release")
 set_languages("c++20")
 
 add_includedirs("include")
+set_warnings("all")
 
 includes("学习过程中写的代码")
 includes("代码片段")
