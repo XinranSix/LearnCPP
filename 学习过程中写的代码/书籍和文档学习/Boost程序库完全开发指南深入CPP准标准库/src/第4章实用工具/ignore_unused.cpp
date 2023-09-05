@@ -1,14 +1,16 @@
 #include <iostream>
 #include <boost/core/ignore_unused.hpp>
 
-int main(int argc, char *argv[]) {
-    std::cout << "Hello World" << std::endl;
+int func(int x, int y) {
+    int i {};
+    boost::ignore_unused(x, i);
 
-    int a { 133 };
-    int b { 123 };
-    int c { 123 };
-    
-    boost::ignore_unused(b);
-
-    return 0;
+    return y;
 }
+
+void fun2() {
+    using result_type = int;
+    boost::ignore_unused<result_type>();
+}
+
+int main(int argc, char *argv[]) { return 0; }
