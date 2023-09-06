@@ -1,6 +1,6 @@
 /*
 g++ -fdump-class-hierarchy 多继承.cpp
-g++ -fdump-lang-class 多继承.cpp 
+g++ -fdump-lang-class 多继承.cpp
 */
 
 struct A {
