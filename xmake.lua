@@ -1,39 +1,79 @@
 add_rules("mode.debug", "mode.release")
-set_languages("cxx20")
+set_languages("c++20")
+add_cxflags("/utf-8")
 
-add_includedirs("include")
+-- add_includedirs("./include")
 
--- add_requires("fmt") -- fmt 库
-add_requires("sqlite3") -- sqlite3 
-add_requires("ftxui") -- ftxui 库
-add_requires("gtest") -- google test
-add_requires("boost", {configs = {all = true}}) -- boost 库
-add_requires("tbox") -- c 语言的一个工具库
-add_requires("eigen") -- 线性代数库
-add_requires("range-v3")  -- 范围库
-add_requires("stb") -- stb 
-add_requires("magic_enum")  -- 枚举反射
-add_requires("glm") -- glm opengl 线性代数库
-add_requires("rapidjson") -- 一个 json 库
--- add_requires("spdlog") -- 一个日志库, 基于 fmt
--- add_requires("slf4cpp") -- 不说了，懒得说
-add_requires("abseil") -- 补充标准库没有的常用功能
-add_requires("benchmark") -- 谷歌性能评估框架
-add_requires("opengl") -- 谷歌性能评估框架
-add_requires("glfw") -- glfw OpenGL 窗口和上下文管理
+includes("./代码片段")
+includes("./学习过程中写的代码")
+
+-- 数据可视化
+add_requires("matplotplusplus") -- A C++ Graphics Library for Data Visualization
+
+-- 音视频
+add_requires("ffmpeg") -- 音视频基础操作的库
+
+-- 图像处理
+add_requires("opencv")
+
+-- 图形学 
+add_requires("opengl") 
+add_requires("glew") 
+add_requires("glad")
+add_requires("glfw")
+add_requires("glm")
+add_requires("assimp")
 add_requires("libigl") -- 各种图形学算法大合集
-add_requires("opencv") -- opencv
+add_requires("stb") -- stb 
+add_requires("cgal") --CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library. 
+
+-- 对标准库的拓展和补充
+add_requires("boost", {configs = {all = true}}) 
+-- add_requires("jemalloc") -- A general purpose malloc(3) implementation that emphasizes fragmentation avoidance and scalable concurrency support
+add_requires("range-v3")  -- 范围库
+add_requires("abseil") -- 补充标准库没有的常用功能
+
+-- 工具
+add_requires("fmt") -- 格式化输出库，巨好用，部分功能已被标准库吸收
+add_requires("tbox") -- c 语言的一个工具库，Xmake 作者开发的
+add_requires("cryptopp") -- 一套密码学程序库，使用了大量泛型编程技术，与 Boost 类似，几乎囊括了所有已知的公开密码学算法的实现
+add_requires("snappy") -- A fast compressor/decompressor
+add_requires("zeromq") -- High-performance, asynchronous messaging library
+add_requires("boost_ut") --  UT: C++20 μ(micro)/Unit Testing Framework
+
+-- 数学
+add_requires("eigen") -- 一个线性代数库，还挺火的
+
+-- 测试
+add_requires("gtest") -- google test
+add_requires("benchmark") -- 谷歌性能评估框架、
+
+-- 反射与序列化
+add_requires("magic_enum")  -- 枚举反射
 add_requires("rttr") -- 反射库
-add_requires("matplotplusplus") -- 
-add_requires("gsl") -- 
-add_requires("cgal") -- 
+-- MessagePack 高效易用的序列化和反序列化工具，可以跨语言交换数据
+add_requires("msgpack-cxx") -- MessagePack implementation for C
+add_requires("msgpack-c") -- MessagePack implementation for C++
+
+-- 日志与文本解析
+add_requires("rapidjson") -- RapidJSON is a JSON parser and generator for C++.
+add_requires("pugixml") -- Light-weight, simple and fast XML parser for C++ with XPath support
+add_requires("jsoncons") -- A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON
+add_requires("spdlog") -- 一个日志库, 基于 fmt
+add_requires("glog") -- 
+add_requires("poco") -- 
+
+-- 数值计算
+add_requires("gsl") -- C数学运算库
+-- add_requires("gnu-gsl") -- The GNU Scientific Library (GSL) is a numerical library for C and C++ programmers.
+
+-- 其他库
+add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
 add_requires("libevent") -- 
 
-add_cxflags("/utf-8", "/std:c++20")
+-- GUI 和 TUI
+-- add_requires("ncurses") -- 一个不支持 window 的 TUI 库
+add_requires("wxwidgets") -- Cross-Platform C++ GUI Library
 
-for _, filepath in ipairs(os.files("./**.cpp")) do
-target(path.basename(filepath))
-    add_files(filepath)
-    set_rundir(path.directory(filepath))
-    add_packages("boost", "ftxui", "gtest", "eigen", "range-v3", "gsl")
-end
+
+
