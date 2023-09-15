@@ -1,7 +1,3 @@
-//
-// Created by light on 20-1-8.
-//
-
 #ifndef MORDEN_C_OUTPUT_CONTAINER_H
 #define MORDEN_C_OUTPUT_CONTAINER_H
 
