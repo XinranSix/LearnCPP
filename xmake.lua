@@ -2,13 +2,13 @@ add_rules("mode.debug", "mode.release")
 set_languages("c++20")
 add_cxflags("/utf-8")
 
--- add_includedirs("./include")
+add_includedirs("./include")
 
 includes("./代码片段")
 includes("./学习过程中写的代码")
 
 if is_plat("windows") then
-    add_requires("opencv")
+    add_requires("opencv") 
     add_requires("opengl") 
     add_requires("libsdl") 
     add_requires("openscenegraph") 
@@ -32,26 +32,18 @@ add_requires("matplotplusplus") -- A C++ Graphics Library for Data Visualization
 -- 音视频
 add_requires("ffmpeg")
 
--- 图形学 
-add_requires("libigl") -- 各种图形学算法大合集
-add_requires("cgal") --CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library. 
-
--- 对标准库的拓展和补充
-add_requires("boost", {configs = {all = true}}) 
-add_requires("poco") 
-add_requires("range-v3")  -- 范围库
-add_requires("abseil") -- 补充标准库没有的常用功能
-
--- 工具
+-- 组件库
 add_requires("fmt") -- 格式化输出库，巨好用，部分功能已被标准库吸收
 add_requires("tbox") -- c 语言的一个工具库，Xmake 作者开发的
 add_requires("cryptopp") -- 一套密码学程序库，使用了大量泛型编程技术，与 Boost 类似，几乎囊括了所有已知的公开密码学算法的实现
 add_requires("snappy") -- A fast compressor/decompressor
 add_requires("zeromq") -- High-performance, asynchronous messaging library
 add_requires("boost_ut") --  UT: C++20 μ(micro)/Unit Testing Framework
-
--- 数学
-add_requires("eigen") -- 一个线性代数库，还挺火的
+add_requires("boost", {configs = {all = true}}) 
+add_requires("poco") 
+add_requires("range-v3")  -- 范围库
+add_requires("abseil") -- 补充标准库没有的常用功能
+add_requires("fast_io")
 
 -- 测试
 add_requires("gtest") -- google test
@@ -63,18 +55,18 @@ add_requires("rttr") -- 反射库
 -- MessagePack 高效易用的序列化和反序列化工具，可以跨语言交换数据
 add_requires("msgpack-cxx") -- MessagePack implementation for C++
 -- add_requires("msgpack-c") -- MessagePack implementation for C
+add_requires("protobuf-cpp")
 
--- 日志与文本解析
+-- 日志
 add_requires("spdlog") -- 一个日志库, 基于 fmt
 add_requires("glog") -- 
 add_requires("easyloggingpp") 
 
--- 数值计算
-add_requires("gsl") -- C数学运算库
-
--- 其他库
-add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
-add_requires("libevent") -- 
+-- 数学、数值计算与算法
+add_requires("gsl") -- C 数学运算库
+add_requires("eigen") -- 一个线性代数库
+add_requires("libigl") -- 各种图形学算法大合集
+add_requires("cgal") --CGAL is a software project that provides easy access to efficient and reliable geometric algorithms in the form of a C++ library. 
 
 -- 数据解析库
 add_requires("tinyxml2") 
@@ -84,12 +76,12 @@ add_requires("jsoncpp")
 add_requires("pugixml") -- Light-weight, simple and fast XML parser for C++ with XPath support
 add_requires("jsoncons") -- A C++, header-only library for constructing JSON and JSON-like data formats, with JSON Pointer, JSON Patch, JSONPath, JMESPath, CSV, MessagePack, CBOR, BSON, UBJSON
 
--- 数据序列化库
-add_requires("protobuf-cpp") 
-
 -- GUI 和 TUI
 add_requires("wxwidgets") -- Cross-Platform C++ GUI Library
 
 -- 命令行解析库
 add_requires("gflags") 
 
+-- 其他库
+add_requires("icu4c") -- C/C++ libraries for Unicode and globalization.
+add_requires("libevent") -- 事件库

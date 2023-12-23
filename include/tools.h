@@ -1,37 +1,50 @@
-//
-// Created by light on 20-1-8.
-//
+#ifndef TOOLS_H
+#define TOOLS_H
 
-#ifndef MORDEN_C_OUTPUT_CONTAINER_H
-#define MORDEN_C_OUTPUT_CONTAINER_H
-
+#include <vector>
 #include <ostream>     // std::ostream
 #include <type_traits> // std::false_type/true_type/decay_t/is_same_v
 #include <utility>     // std::declval/pair
 
-// 检测是否是pair
-template<typename T>
+namespace yj {
+
+    namespace make {
+        template <typename T, typename... TS>
+        auto make_vector(T t, TS... ts) -> std::vector<T> {
+            return { t, ts... };
+        }
+
+        template <typename T>
+        auto make_vector() -> std::vector<T> {
+            return {};
+        }
+
+    } // namespace make
+} // namespace yj
+
+/// 输出容器
+// 是否为 pair
+template <typename T>
 struct is_pair : std::false_type {};
-template<typename T, typename U>
+template <typename T, typename U>
 struct is_pair<std::pair<T, U>> : std::true_type {};
-template<typename T>
-inline constexpr bool is_pair_v = is_pair<T>::value;
+template <typename T>
+constexpr bool is_pair_v = is_pair<T>::value;
 
 // 检测输出函数是否存在
-template<typename T>
+template <typename T>
 struct has_output_function {
-    template<class U>
+    template <class U>
     static auto output(U *ptr)
         -> decltype(std::declval<std::ostream &>() << *ptr, std::true_type());
 
-    template<class U>
+    template <class U>
     static std::false_type output(...);
 
     static constexpr bool value = decltype(output<T>(nullptr))::value;
 };
-
-template<typename T>
-inline constexpr bool has_output_function_v = has_output_function<T>::value;
+template <typename T>
+constexpr bool has_output_function_v = has_output_function<T>::value;
 
 enum CHARS {
     ORD,   // 其他类型
@@ -39,7 +52,7 @@ enum CHARS {
     STRING // string 类型
 };
 
-template<typename T>
+template <typename T>
 int ischarOrString(T &elem) {
     using std::decay_t;
     using std::is_same_v;
@@ -56,7 +69,7 @@ int ischarOrString(T &elem) {
         return ORD;
 }
 
-template<typename T>
+template <typename T>
 void output(T &elem, int type, std::ostream &os) {
     switch (type) {
     case CHAR:
@@ -71,7 +84,7 @@ void output(T &elem, int type, std::ostream &os) {
     }
 }
 
-template<typename T, typename Cont>
+template <typename T, typename Cont>
 auto output_element(std::ostream &os, const T &element, const Cont &) ->
     typename std::enable_if<is_pair<typename Cont::value_type>::value,
                             bool>::type {
@@ -84,7 +97,7 @@ auto output_element(std::ostream &os, const T &element, const Cont &) ->
     return true;
 }
 
-template<typename T, typename Cont>
+template <typename T, typename Cont>
 auto output_element(std::ostream &os, const T &element, const Cont &) ->
     typename std::enable_if<!is_pair<typename Cont::value_type>::value,
                             bool>::type {
@@ -93,7 +106,7 @@ auto output_element(std::ostream &os, const T &element, const Cont &) ->
     return false;
 }
 
-template<typename T, typename U>
+template <typename T, typename U>
 std::ostream &operator<<(std::ostream &os, const std::pair<T, U> &pr) {
     os << '(' << pr.first << ", " << pr.second << ')';
     return os;
@@ -118,7 +131,7 @@ std::ostream &operator<<(std::ostream &os, const std::pair<T, U> &pr) {
 // }
 
 // 针对没有输出函数的容器处理
-template<typename T, typename = std::enable_if_t<!has_output_function_v<T>>>
+template <typename T, typename = std::enable_if_t<!has_output_function_v<T>>>
 auto operator<<(std::ostream &os, const T &container)
     -> decltype(container.begin(), container.end(), os) {
     os << "{ ";
