@@ -84,6 +84,7 @@
         "xstring": "cpp",
         "format": "cpp",
         "xmemory": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "type.h": "c"
     }
 }
